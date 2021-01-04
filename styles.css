@@ -1,4 +1,3 @@
-// Navigation Bar//
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 }
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
@@ -128,8 +127,6 @@ height: 100%;
   font-weight: 300;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
-
-// Command Prompt
 
 $text:#EFEFAE;
 $highlighttext:#FFFFAE;
