@@ -128,45 +128,7 @@ height: 100%;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
 
-ul.tabs {
-	margin: 0;
-	padding: 0;
-	float: left;
-	list-style: none;
-	height: 32px;
-	border-bottom: 1px solid #333;
-	width: 100%;
-}
-
-ul.tabs li {
-	float: left;
-	margin: 0;
-	cursor: pointer;
-	padding: 0px 21px;
-	height: 31px;
-	line-height: 31px;
-	border-top: 1px solid #333;
-	border-left: 1px solid #333;
-	border-bottom: 1px solid #333;
-	background-color: #666;
-	color: #ccc;
-	overflow: hidden;
-	position: relative;
-}
-
 .tab_last { border-right: 1px solid #333; }
-
-ul.tabs li:hover {
-	background-color: #ccc;
-	color: #333;
-}
-
-ul.tabs li.active {
-	background-color: #fff;
-	color: #333;
-	border-bottom: 1px solid #fff;
-	display: block;
-}
 
 .tab_container {
 	border: 1px solid #333;
@@ -174,6 +136,7 @@ ul.tabs li.active {
 	clear: both;
 	float: left;
 	width: 100%;
+	padding-left:50px;
 	background: #fff;
 	overflow: auto;
 }
