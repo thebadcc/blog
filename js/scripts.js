@@ -1,33 +1,23 @@
-
-    $(".tab_content").hide();
-    $(".tab_content:first").show();
-
-  /* if in tab mode */
-    $("ul.tabsx li").click(function() {
-		
-      $(".tab_content").hide();
-      var activeTab = $(this).attr("rel"); 
-      $("#"+activeTab).fadeIn();		
-		
-      $("ul.tabsx li").removeClass("active");
-      $(this).addClass("active");
-
-	  $(".tab_drawer_heading").removeClass("d_active");
-	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
-	  
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
     });
-	/* if in drawer mode */
-	$(".tab_drawer_heading").click(function() {
-      
-      $(".tab_content").hide();
-      var d_activeTab = $(this).attr("rel"); 
-      $("#"+d_activeTab).fadeIn();
-	  
-	  $(".tab_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
-	  
-	  $("ul.tabsx li").removeClass("active");
-	  $("ul.tabsx li[rel^='"+d_activeTab+"']").addClass("active");
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
     });
-	
-	$('ul.tabsx li').last().addClass("tab_last");
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
