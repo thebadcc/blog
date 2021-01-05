@@ -4,110 +4,64 @@
 		<link rel='stylesheet' href='styles.css' type='text/css'>
 	</head>
 	<body>
-		<div class="area">
-			<div class="tab_container">
-				<h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
-				<div id="tab1" class="tab_content">
-					<h2>
-					<pre> _______  __   __  _______  _______  _______  ______   _______  _______ 
-|       ||  | |  ||       ||  _    ||   _   ||      | |       ||       |
-|_     _||  |_|  ||    ___|| |_|   ||  |_|  ||  _    ||       ||       |
-  |   |  |       ||   |___ |       ||       || | |   ||       ||       |
-  |   |  |       ||    ___||  _   | |       || |_|   ||      _||      _|
-  |   |  |   _   ||   |___ | |_|   ||   _   ||       ||     |_ |     |_ 
-  |___|  |__| |__||_______||_______||__| |__||______| |_______||_______|</pre>
-					</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac metus augue.</p>
-				</div>
-				<!-- #tab1 -->
-				<h3 class="tab_drawer_heading" rel="tab2">Tab 2</h3>
-				<div id="tab2" class="tab_content">
-					<h2>TBCC 100 Index</h2>
-					<p>Rules</p>
-				</div>
-				<!-- #tab2 -->
-				<h3 class="tab_drawer_heading" rel="tab3">Tab 3</h3>
-				<div id="tab3" class="tab_content">
-					<h2>Tab 3 content</h2>
-					<p>Nulla eleifend felis vitae velit tristique imperdiet. Etiam nec imperdiet elit. Pellentesque sem lorem, scelerisque sed facilisis sed, vestibulum sit amet eros.</p>
-				</div>
-				<!-- #tab3 -->
-				<h3 class="tab_drawer_heading" rel="tab4">Tab 4</h3>
-				<div id="tab4" class="tab_content">
-					<h2>Tab 4 content</h2>
-					<p>Integer ultrices lacus sit amet lorem viverra consequat. Vivamus lacinia interdum sapien non faucibus. Maecenas bibendum, lectus at ultrices viverra, elit magna egestas magna, a adipiscing mauris justo nec eros.</p>
-				</div>
-				<!-- #tab4 --> 
-			</div>
-			<!-- .tab_container -->
-		</div>  
+		<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Logo</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li>
+          <a href="#!">About</a>
+        </li>
+        <li>
+          <a href="#!">Services</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Pricing</a>
+        </li>
+        <li>
+          <a href="#!">Portfolio</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
 
-	<nav class="main-menu">
-		<ul class="tabsx">
-			<li rel="tab1">
-				<a href="#">
-					<i class="fa fa-home fa-2x"></i>
-					<span class="nav-text">Home</span>
-				</a>
-			</li>
-			<li class="has-subnav" rel="tab2">
-				<a href="#">
-					<i class="fa fa-laptop fa-2x"></i>
-					<span class="nav-text">TBCC 100</span>
-				</a>
-			</li>
-			<li class="has-subnav">
-				<a href="#">
-					<i class="fa fa-list fa-2x"></i>
-					<span class="nav-text">Games</span>
-				</a>
-			</li>
-			<li class="has-subnav">
-				<a href="#">
-					<i class="fa fa-folder-open fa-2x"></i>
-					<span class="nav-text">Pages</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class="fa fa-bar-chart-o fa-2x"></i>
-					<span class="nav-text">Graphs and Statistics</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class="fa fa-font fa-2x"></i>
-					<span class="nav-text">Quotes</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class="fa fa-table fa-2x"></i>
-					<span class="nav-text">Certifications</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class="fa fa-map-marker fa-2x"></i>
-					<span class="nav-text">Governance</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class="fa fa-info fa-2x"></i>
-					<span class="nav-text">About Us</span>
-				</a>
-			</li>
-		</ul>
-		<ul class="logout">
-			<li>
-				<a href="#">
-					<i class="fa fa-power-off fa-2x"></i>
-					<span class="nav-text">Connect</span>
-				</a>
-			</li>  
-		</ul>
-	</nav>
+<article>
+  <h2>Navigation</h2>
+  <p>Responsive Dropdown Navigation Bar.</p>
+  <p>Want to see how it's made? <a href="http://www.taniarascia.com/responsive-dropdown-navigation-bar/">Read the tutorial!</a></p>
+</article>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>
