@@ -131,12 +131,10 @@ height: 100%;
 .tab_last { border-right: 1px solid #333; }
 
 .tab_container {
-	border: 1px solid #333;
 	border-top: none;
 	clear: both;
 	float: left;
 	width: 100%;
-	background: #fff;
 	overflow: auto;
 }
 
