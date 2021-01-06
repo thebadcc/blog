@@ -152,6 +152,17 @@ nav ul li ul li a {
   text-decoration: none;
 }
 
+#ascii_banner_preview pre {
+    width: unset;
+    box-shadow: none;
+    border: none;
+    white-space: pre;
+    overflow: visible;
+    font-size: 5px;
+    line-height: 1;
+    font-weight: bold;
+    color: white;
+}
 
 
 
