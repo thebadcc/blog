@@ -165,7 +165,10 @@ nav ul li ul li a {
 }
 
 
-
+.pages {
+	min-height: 100%;
+    margin-bottom: -70px;	
+}
 
 
 .tab_last { border-right: 1px solid #333; }
