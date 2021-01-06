@@ -1,12 +1,7 @@
-$content-width: 1000px;
-$breakpoint: 800px;
-$nav-height: 70px;
-$nav-background: #262626;
-$nav-font-color: #ffffff;
-$link-hover-color: #2581DC;
-
 nav {
   float: right;
+  background: #262626;
+  font-color: #ffffff;
   ul {
     list-style: none;
     margin: 0;
@@ -17,13 +12,13 @@ nav {
       a {
         display: block;
         padding: 0 20px;
-        line-height: $nav-height;
-        background: $nav-background;
-        color: $nav-font-color;
+        line-height: 70px;
+        background: #262626;
+        color: #ffffff;
         text-decoration: none;
         &:hover {
-          background: $link-hover-color;
-          color: $nav-font-color;
+          background: #2581DC;
+          color: #ffffff;
         }
         &:not(:only-child):after {
         padding-left: 4px;
@@ -53,9 +48,9 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  background: $nav-background;
-  height: $nav-height;
-  width: $nav-height;
+  background: #262626;
+  height: 70px;
+  width: 70px;
 }
 
 #nav-toggle {
@@ -71,7 +66,7 @@ nav {
     border-radius: 1px;
     height: 5px;
     width: 35px;
-    background: $nav-font-color;
+    background: #ffffff;
     position: absolute;
     display: block;
     content: '';
@@ -98,13 +93,13 @@ nav {
   }
 }
 
-@media only screen and (max-width: $breakpoint) {
+@media only screen and (max-width: 800px) {
   .nav-mobile {
     display: block;
   }
    nav {
     width: 100%;
-    padding: $nav-height 0 15px;
+    padding: 70px 0 15px;
     ul {
       display: none;
       li {
@@ -125,19 +120,19 @@ nav {
   }
 }
 
-@media screen and (min-width: $breakpoint) {
+@media screen and (min-width: 800px) {
   .nav-list {
     display: block !important;
   }
 }
 
 .navigation {
-  height: $nav-height;
-  background: $nav-background;
+  height: 70px;
+  background: #262626;
 }
 
 .nav-container {
-  max-width: $content-width;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -145,12 +140,12 @@ nav {
   position: absolute;
   padding-left: 20px;
   float: left;
-  line-height: $nav-height;
+  line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
   a,
   a:visited {
-    color: $nav-font-color;
+    color: #ffffff;
     text-decoration: none;
   }
 }
