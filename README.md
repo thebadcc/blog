@@ -9,3 +9,7 @@ https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0
 https://codepen.io/veronicadev/pen/YYvjzO
 
 https://codepen.io/nickmoreton/pen/mgtLK
+
+https://codepen.io/ZaynAlaoudi/pen/rpWrpP
+
+https://codepen.io/wolfgang1983/pen/edGcL
