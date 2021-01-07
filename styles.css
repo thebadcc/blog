@@ -227,6 +227,7 @@ nav ul li ul li a {
 	border-top: solid 2px;
     border-right: solid 2px;
     border-left: solid 2px;
+	border-radius: 10px 10px 0 0;
 }
 .tabsy .taby {
   order: 99;
@@ -259,5 +260,7 @@ nav ul li ul li a {
     border-right: solid 2px;
     border-left: solid 2px;
 	  border-bottom: solid 2px;
+	  border-radius: 10px 10px 10px 10px;
+	  
   }
 }
