@@ -224,6 +224,9 @@ nav ul li ul li a {
   background: #90CAF9;
   font-weight: bold;
   transition: background ease 0.2s;
+	border-top: solid 2px;
+    border-right: solid 2px;
+    border-left: solid 2px;
 }
 .tabsy .taby {
   order: 99;
