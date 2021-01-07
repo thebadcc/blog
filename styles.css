@@ -222,22 +222,25 @@ nav ul li ul li a {
 	padding: 1rem 2rem;
 	margin-right: 0.2rem;
 	cursor: pointer;
-  background: #90CAF9;
-  font-weight: bold;
-  transition: background ease 0.2s;
+	background: #90CAF9;
+	font-weight: bold;
+	transition: background ease 0.2s;
 	border-top: solid 2px;
-    border-right: solid 2px;
-    border-left: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
 	border-radius: 10px 10px 0 0;
 	font-family: system-ui;
+	margin-bottom: -2px;
+	z-index: 10;
 }
 .tabsy .taby {
-  order: 99;
-  flex-grow: 1;
+	order: 99;
+	flex-grow: 1;
 	width: 100%;
 	display: none;
-  padding: 1rem;
-  background: #fff;
+	padding: 1rem;
+	background: #fff;
+	border: solid 2px;
 }
 .tabsy input[type="radio"] {
 	display: none;
