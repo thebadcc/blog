@@ -225,12 +225,10 @@ nav ul li ul li a {
 	background: #90CAF9;
 	font-weight: bold;
 	transition: background ease 0.2s;
-	border-top: solid 2px;
-	border-right: solid 2px;
-	border-left: solid 2px;
+	border: solid 2px;
 	border-radius: 10px 10px 0 0;
 	font-family: system-ui;
-	margin-bottom: -2px;
+	margin-bottom: -1px;
 	z-index: 10;
 }
 .tabsy .taby {
@@ -247,6 +245,7 @@ nav ul li ul li a {
 }
 .tabsy input[type="radio"]:checked + label {
 	background: #fff;
+	border-bottom: solid 2px white;
 }
 .tabsy input[type="radio"]:checked + label + .taby {
 	display: block;
@@ -258,14 +257,14 @@ nav ul li ul li a {
     order: initial;
   }
   .tabsy label {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 0.2rem;
-	  border-top: solid 2px;
-    border-right: solid 2px;
-    border-left: solid 2px;
-	  border-bottom: solid 2px;
-	  border-radius: 10px 10px 10px 10px;
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0.2rem;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	border-bottom: solid 2px;
+	border-radius: 10px 10px 10px 10px;
 	  
 	  
   }
