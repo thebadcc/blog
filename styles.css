@@ -213,10 +213,10 @@ nav ul li ul li a {
 
 .tabsy {
 	display: flex;
-	flex-wrap: wrap; // make sure it wraps
+	flex-wrap: wrap;
 }
 .tabsy label {
-	order: 1; // Put the labels first
+	order: 1;
 	display: block;
 	padding: 1rem 2rem;
 	margin-right: 0.2rem;
@@ -226,7 +226,7 @@ nav ul li ul li a {
   transition: background ease 0.2s;
 }
 .tabsy .taby {
-  order: 99; // Put the tabs last
+  order: 99;
   flex-grow: 1;
 	width: 100%;
 	display: none;
@@ -239,7 +239,7 @@ nav ul li ul li a {
 .tabsy input[type="radio"]:checked + label {
 	background: #fff;
 }
-.tabsy input[type="radio"]:checked + label + .tab {
+.tabsy input[type="radio"]:checked + label + .taby {
 	display: block;
 }
 
