@@ -238,7 +238,7 @@ nav ul li ul li a {
 	display: none;
 	padding: 1rem;
 	background: #fff;
-	border: solid 2px;
+	border-top: solid 2px;
 }
 .tabsy input[type="radio"] {
 	display: none;
@@ -252,18 +252,19 @@ nav ul li ul li a {
 }
 
 @media (max-width: 45em) {
-  .tabsy .taby,
+  .tabsy,
   .tabsy label {
     order: initial;
   }
+  .taby {
+	order: initial;
+	border-top: none !important;
+}
   .tabsy label {
 	width: 100%;
 	margin-right: 0;
 	margin-top: 0.2rem;
-	border-top: solid 2px;
-	border-right: solid 2px;
-	border-left: solid 2px;
-	border-bottom: solid 2px;
+	border: solid 2px !important;
 	border-radius: 10px 10px 10px 10px;
 	  
 	  
