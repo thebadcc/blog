@@ -275,3 +275,11 @@ footer {
     height: 60px;
     width: 100%;
 }
+
+.excerpt {
+	display: none;
+}
+
+.read-more {
+	display:none;
+}
