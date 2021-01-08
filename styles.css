@@ -252,12 +252,11 @@ nav ul li ul li a {
 }
 
 @media (max-width: 45em) {
-  .tabsy,
+  .tabsy .taby,
   .tabsy label {
     order: initial;
   }
   .taby {
-	order: initial;
 	border-top: none !important;
 }
   .tabsy label {
