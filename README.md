@@ -6,7 +6,7 @@ https://manytools.org/hacker-tools/ascii-banner/
 
 https://codepen.io/hayatbiralem/pen/KpzjOL
 
-https://codepen.io/taniarascia/pen/rOLEGe
+https://medium-widget.pixelpoint.io/
 
 - 
 
