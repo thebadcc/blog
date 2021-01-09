@@ -50,6 +50,34 @@ $(".tab_content").hide();
 
 
 
+    $("ul.back-dropdown li").click(function() {
+		
+      $(".tab_content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();		
+		
+      $("ul.back-dropdown li").removeClass("active");
+      $(this).addClass("active");
+
+	  $(".tab_drawer_heading").removeClass("d_active");
+	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+	  
+    });
+	$(".tab_drawer_heading").click(function() {
+      
+      $(".tab_content").hide();
+      var d_activeTab = $(this).attr("rel"); 
+      $("#"+d_activeTab).fadeIn();
+	  
+	  $(".tab_drawer_heading").removeClass("d_active");
+      $(this).addClass("d_active");
+	  
+	  $("ul.back-dropdown li").removeClass("active");
+	  $("ul.back-dropdown li[rel^='"+d_activeTab+"']").addClass("active");
+    });
+
+	$('ul.back-dropdown li').last().addClass("tab_last");
+
 
 
 
