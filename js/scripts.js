@@ -17,12 +17,6 @@
  });
 })(jQuery);
 
- document.querySelector('#nav1-toggle').addEventListener('click', function() {
-  this.classList.toggle('active');
- });
- $('#nav1-toggle').click(function() {
-  $('nav ul').toggle();
- });
 
 $(".tab_content").hide();
     $(".tab_content:first").show();
