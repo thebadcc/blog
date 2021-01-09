@@ -316,11 +316,6 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-
-    body {
-  background: lightGrey;
-}
-
 .cardRows {
   font: 300 16px "Open Sans";
   display: flex;
