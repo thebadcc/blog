@@ -339,7 +339,7 @@ tr:nth-child(even) {
   display: flex;
   justify-content: space-between;
 }
-@media (min-width: 650px) {
+@media (min-width: 800px) {
   .card {
     max-width: 50%;
   }
