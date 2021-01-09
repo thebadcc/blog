@@ -17,25 +17,6 @@
  });
 })(jQuery);
 
-(function($){
- $(function(){
-  $('nav ul li > a:not(:only-child)').click(function(e) {
-    $(this).siblings('.back-dropdown').toggle();
-    $('.back-dropdown').not($(this).siblings()).hide();
-    e.stopPropagation();
-  });
- });
- $('html').click(function() {
-  $('.back-dropdown').hide();
- });
- document.querySelector('#back-toggle').addEventListener('click', function() {
-  this.classList.toggle('active');
- });
- $('#back-toggle').click(function() {
-  $('nav ul').toggle();
- });
-})(jQuery);
-
 
 $(".tab_content").hide();
     $(".tab_content:first").show();
