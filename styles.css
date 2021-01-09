@@ -335,16 +335,6 @@ tr:nth-child(even) {
 	flex-direction: column;
 	justify-content: space-between;
 	
-	.card__groups {
-		display: flex;
-		justify-content: space-between;
-		
-	}
-	
-	@media (min-width: 650px) {
-		max-width: 50%;
-	}
-	
 	.card__group {
 		&:first-child {
 			margin-right: 1em;
@@ -361,19 +351,30 @@ tr:nth-child(even) {
 		}
 	}
 	
-	.card__subtitle {
+}
+
+.card__subtitle {
 		font-weight: 400;
 	}
-}
+
+.card__groups {
+		display: flex;
+		justify-content: space-between;
+		
+	}
+
+@media (min-width: 650px) {
+		max-width: 50%;
+	}
 
 .bottomLinks a {
 	color: #147ea7;
 	text-decoration: none;
 	font-size: .8rem;
-	
-	.bottomLinks a:hover {
-		text-decoration: underline;
-	}
+}
+
+.bottomLinks a:hover {
+	text-decoration: underline;
 }
 
 .fraction {
@@ -386,17 +387,18 @@ tr:nth-child(even) {
 	text-align: center;
 	line-height: 0.7em;
 	font-weight: 700;
-	
-	.fraction__label {
+}	
+
+.fraction__label {
 		font-size: .75rem;
 		font-weight: 300;
 		line-height: 1.4rem;
 	}
 	
-	hr {
+.fraction hr {
 		margin: .25rem 0 .5em;
 	}
-}
+
 
 .percent {
 	font-size: 2rem;
