@@ -261,6 +261,7 @@ nav ul li ul li a {
   .tabsy .taby,
   .tabsy label {
     order: initial;
+    display: none;
   }
   .taby {
 	border-top: none !important;
