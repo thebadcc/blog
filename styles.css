@@ -309,3 +309,11 @@ footer {
     color: white;
     font-family: system-ui;
 }
+
+.index-list {
+    list-style: none;
+}
+
+.index-list li {
+	float: left;
+}
