@@ -8,6 +8,8 @@ https://codepen.io/hayatbiralem/pen/KpzjOL
 
 https://medium-widget.pixelpoint.io/
 
+https://codepen.io/dok/pen/VBgPYO
+
 - 
 
 https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
