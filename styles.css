@@ -335,7 +335,7 @@ tr:nth-child(even) {
 	flex-direction: column;
 	justify-content: space-between;
 	
-	&__groups {
+	.card__groups {
 		display: flex;
 		justify-content: space-between;
 		
@@ -345,13 +345,13 @@ tr:nth-child(even) {
 		max-width: 50%;
 	}
 	
-	&__group {
+	.card__group {
 		&:first-child {
 			margin-right: 1em;
 		}		
 	}
 	
-	&__title {
+	.card__title {
 		margin-top: 0;
 		.aka {
 			font-style: italic;
@@ -361,7 +361,7 @@ tr:nth-child(even) {
 		}
 	}
 	
-	&__subtitle {
+	.card__subtitle {
 		font-weight: 400;
 	}
 }
@@ -371,7 +371,7 @@ tr:nth-child(even) {
 	text-decoration: none;
 	font-size: .8rem;
 	
-	&:hover {
+	.bottomLinks a:hover {
 		text-decoration: underline;
 	}
 }
@@ -387,7 +387,7 @@ tr:nth-child(even) {
 	line-height: 0.7em;
 	font-weight: 700;
 	
-	&__label {
+	.fraction__label {
 		font-size: .75rem;
 		font-weight: 300;
 		line-height: 1.4rem;
