@@ -257,7 +257,7 @@ nav ul li ul li a {
 	display: block;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 800px)) {
   .tabsy .taby,
   .tabsy label {
     order: initial;
