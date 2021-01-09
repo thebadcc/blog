@@ -370,15 +370,16 @@ tr:nth-child(even) {
 }
 
 .fraction {
-  background: #147ea7;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  color: #fff;
-  width: 3.75em;
-  padding: 1rem;
-  text-align: center;
-  line-height: 0.7em;
-  font-weight: 700;
+	background: #147ea7;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 1rem;
+	text-align: center;
+	line-height: 0.7em;
+	font-weight: 700;
 }
 .fraction__label {
   font-size: 0.75rem;
