@@ -316,91 +316,86 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+
+    body {
+  background: lightGrey;
+}
+
 .cardRows {
-	font: 300 16px "Open Sans";
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  font: 300 16px "Open Sans";
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card {
-	background: white;
-	padding: 1em;
-	margin: 1em;
-	border-radius: .2em;
-	box-shadow: 0 0 .3em rgba(0,0,0,0.3);
-	flex: 1 0 250px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: space-between;
-	
-	.card__group {
-		&:first-child {
-			margin-right: 1em;
-		}		
-	}
-	
-	.card__title {
-		margin-top: 0;
-		.aka {
-			font-style: italic;
-			font-weight: 400;
-			font-size: 1rem;
-			color: #888;
-		}
-	}
-	
+  background: white;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.2em;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.3);
+  flex: 1 0 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-.card__subtitle {
-		font-weight: 400;
-	}
-
 .card__groups {
-		display: flex;
-		justify-content: space-between;
-		
-	}
-
+  display: flex;
+  justify-content: space-between;
+}
 @media (min-width: 650px) {
-		max-width: 50%;
-	}
+  .card {
+    max-width: 50%;
+  }
+}
+.card__group:first-child {
+  margin-right: 1em;
+}
+.card__title {
+  margin-top: 0;
+}
+.card__title .aka {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #888;
+}
+.card__subtitle {
+  font-weight: 400;
+}
 
 .bottomLinks a {
-	color: #147ea7;
-	text-decoration: none;
-	font-size: .8rem;
+  color: #147ea7;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
-
 .bottomLinks a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .fraction {
-	background: #147ea7;
-	border-radius: 50%;
-	font-size: 1.5rem;
-	color: #fff;
-	width: 3.75em;
-	padding: 1rem;
-	text-align: center;
-	line-height: 0.7em;
-	font-weight: 700;
-}	
-
+  background: #147ea7;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 3.75em;
+  padding: 1rem;
+  text-align: center;
+  line-height: 0.7em;
+  font-weight: 700;
+}
 .fraction__label {
-		font-size: .75rem;
-		font-weight: 300;
-		line-height: 1.4rem;
-	}
-	
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
 .fraction hr {
-		margin: .25rem 0 .5em;
-	}
-
+  margin: 0.25rem 0 0.5em;
+}
 
 .percent {
-	font-size: 2rem;
-	font-weight: 700;
+  font-size: 2rem;
+  font-weight: 700;
 }
+  
