@@ -108,62 +108,6 @@ nav ul li ul li a {
   transform: rotate(-45deg);
 }
 
-.back-dropdown {
-  position: absolute;
-  display: none;
-  background: white;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-}
-
-.back-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 70px;
-  width: 70px;
-}
-
-#back-toggle {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
-}
-#back-toggle span,
-#back-toggle span:before,
-#back-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: black;
-  position: absolute;
-  display: block;
-  content: "";
-  transition: all 300ms ease-in-out;
-}
-#back-toggle span:before {
-  top: -10px;
-}
-#back-toggle span:after {
-  bottom: -10px;
-}
-#back-toggle.active span {
-  background-color: transparent;
-}
-#back-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#back-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#back-toggle.active span:after {
-  transform: rotate(-45deg);
-}
-
 @media only screen and (max-width: 800px) {
   .nav-mobile {
     display: block;
