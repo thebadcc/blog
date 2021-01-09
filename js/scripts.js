@@ -18,17 +18,6 @@
 })(jQuery);
 
 
-(function($){
- document.querySelector('#back-toggle').addEventListener('click', function() {
-  this.classList.toggle('active');
- });
- $('#back-toggle').click(function() {
-  $('nav ul').toggle();
- });
-})(jQuery);
-
-
-
 $(".tab_content").hide();
     $(".tab_content:first").show();
     $("ul.nav-dropdown li").click(function() {
