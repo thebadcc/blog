@@ -299,3 +299,13 @@ footer {
 .read-more {
 	display:none;
 }
+
+.index-logo {
+    padding: 25px 0;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    background: gray;
+    color: white;
+    font-family: system-ui;
+}
