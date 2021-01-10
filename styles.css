@@ -186,9 +186,6 @@ nav ul li ul li a {
     margin-bottom: -70px;	
 }
 
-
-.tab_last { border-right: 1px solid #333; }
-
 .tab_container {
 	clear: both;
 	float: left;
