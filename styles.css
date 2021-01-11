@@ -300,6 +300,11 @@ footer {
   flex-wrap: wrap;
 }
 
+#card2 {
+	background-image: url("https://ipfs.io/ipfs/QmRZMup3FgdJwd7pBtm9ssax3qARWa6C5nXazzgyNF58kF");
+}
+
+
 .card {
   background: white;
   padding: 1em;
