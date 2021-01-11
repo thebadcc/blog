@@ -307,10 +307,11 @@ footer {
 }
 
 #card2-logo {
-	background-image: url("https://ipfs.io/ipfs/QmQAgBc5nqqXgVHVHM4QxB4T5oL5VZbkDpTJRt7CJEfVre");
+	background-image: url(https://ipfs.io/ipfs/QmQAgBc5nqqXgVHVHM4QxB4T5oL5VZbkDpTJRt7CJEfVre);
 	background-size: cover;
-        background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;
+	background-position: center;
+	border: solid;	
 }
 
 
