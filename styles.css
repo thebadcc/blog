@@ -294,10 +294,11 @@ footer {
 }
 
 .cardRows {
-  font: 300 16px "Open Sans";
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	font: 300 16px "Open Sans";
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: system-ui;
 }
 
 #card2 {
