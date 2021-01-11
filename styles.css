@@ -301,6 +301,12 @@ footer {
 	font-family: system-ui;
 }
 
+#card1 {
+	background-image: url("https://ipfs.io/ipfs/QmVcALExTXco55BaAwWrcHBJqKo21LLxipiMtF719HbAiU");
+	background-size: cover;
+        background-repeat: no-repeat;
+}
+
 #card2 {
 	background-image: url("https://ipfs.io/ipfs/QmRZMup3FgdJwd7pBtm9ssax3qARWa6C5nXazzgyNF58kF");
 	background-size: cover;
