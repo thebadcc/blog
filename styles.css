@@ -445,7 +445,8 @@ footer {
 }
 
 thead {
-  background: #ddd;
+	background: #ddd;
+	text-align: left;
 }
 
 .table td:nth-child(2) {
