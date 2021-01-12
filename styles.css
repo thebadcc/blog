@@ -328,7 +328,6 @@ footer {
 	border: solid;	
 }
 
-
 .card {
   background: white;
   padding: 1em;
@@ -430,8 +429,6 @@ footer {
 .table {
   @media only screen and (min-width: 800px) {
     table-layout: fixed;
-    //this declaration overwrites 
-    //the default plugin style
     max-width: 100% !important;
   }
 }
@@ -442,7 +439,6 @@ thead {
 
 .table td:nth-child(2) {
   overflow: hidden;
-  //white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -482,7 +478,6 @@ thead {
   
   .table td:nth-child(1) {
       background: #ccc;
-      height: 100%;
       top: 0;
       left: 0;
       font-weight: bold;
