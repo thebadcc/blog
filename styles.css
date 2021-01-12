@@ -325,6 +325,12 @@ footer {
         background-repeat: no-repeat;
 }
 
+#card5 {
+	background-image: url("https://ipfs.io/ipfs/QmPYaeARtuT96rqtCx2XoNbRFzkiFPB8j6x2vHxau8iCCF");
+	background-size: cover;
+        background-repeat: no-repeat;
+}
+
 #card2-logo {
 	background-image: url(https://ipfs.io/ipfs/QmQAgBc5nqqXgVHVHM4QxB4T5oL5VZbkDpTJRt7CJEfVre);
 	background-size: cover;
