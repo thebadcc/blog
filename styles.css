@@ -469,7 +469,6 @@ thead {
   }
   td:before {
     position: absolute;
-    top: 6px;
     left: 6px;
     width: 45%;
     padding-right: 10px;
