@@ -413,6 +413,17 @@ footer {
   float: right;
 }
 
+.dataTables_filter label {
+  border: none;
+  background: none;
+}
+
+.dataTables_length label {
+    float: left;
+    background: none;
+    border: none;
+}
+
 .table-hover > tbody > tr:hover {
     background-color: lighten(cyan, 40%);
 }
