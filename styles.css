@@ -434,6 +434,14 @@ footer {
     border: none;
 }
 
+.dataTables_info {
+	display:none;
+}
+
+.pagination {
+	display:none;
+}
+
 .table-hover > tbody > tr:hover {
     background-color: lighten(cyan, 40%);
 }
