@@ -1,8 +1,9 @@
 body {
-  margin: 0;
-  height: 100%;
-  padding-right: 10%;
-  padding-left: 10%;
+	margin: 0;
+	height: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	font-family: system-ui;
 }
 
 @charset "UTF-8";
