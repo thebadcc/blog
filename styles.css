@@ -412,43 +412,42 @@ footer {
 }
 
 .percent {
-  font-size: 2rem;
-  font-weight: 700;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
-
-
 .twcard {
-  display: flex;
-  border-radius: 5px;
+	display: flex;
+	border-radius: 5px;
 }
 
 .twavatar {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  padding: 15px 0 15px 15px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding: 15px 0 15px 15px;
 }
 
 .twimage {
-  width: 90px;
-  height: auto;
+	width: 90px;
+	height: auto;
+	border-radius: 50%;
 }
 
 .twcontent-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px;
+	justify-content: center;
 }
 
 .twtitle {
-  margin: 0 0 5px 0;
-  font-weight: bold;
+	margin: 0 0 5px 0;
+	font-weight: bold;
 }
 
 .twcontent {
-  font-size: 0.8em;
-  margin: 0;
+	font-size: 0.8em;
+	margin: 0;
 }
