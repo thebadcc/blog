@@ -445,6 +445,8 @@ footer {
 .twtitle {
 	margin: 0 0 5px 0;
 	font-weight: bold;
+	font-size: 25px;
+	color: #555555;
 }
 
 .twcontent {
@@ -453,10 +455,9 @@ footer {
 }
 
 button.toggle-br {
-	    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-	margin-top: 100px;
+	order: 0;
+	flex: 0 1 auto;
+	align-self: auto;
 	color: #fff;
 	padding: .6em 1em;
 	border-radius: .4em;
