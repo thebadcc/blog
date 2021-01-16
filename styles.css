@@ -421,7 +421,6 @@ footer {
 .twcard {
   display: flex;
   border-radius: 5px;
-  justify-content: center;
 }
 
 .twavatar {
