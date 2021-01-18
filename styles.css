@@ -228,6 +228,7 @@ nav ul li ul li a {
 .tabsy {
 	display: flex;
 	flex-wrap: wrap;
+	border-top: solid 2px;
 }
 .tabsy label {
 	order: 1;
@@ -235,13 +236,10 @@ nav ul li ul li a {
 	padding: 1rem 2rem;
 	margin-right: 0.2rem;
 	cursor: pointer;
-	background: #D3D3D3;
 	font-weight: bold;
 	transition: background ease 0.2s;
-	border: solid 2px;
 	border-radius: 10px 10px 0 0;
 	font-family: system-ui;
-	margin-bottom: -1px;
 	z-index: 10;
 }
 .tabsy .taby {
