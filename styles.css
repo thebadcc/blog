@@ -438,6 +438,7 @@ footer {
 	align-items: flex-start;
 	padding: 20px;
 	justify-content: center;
+	display: none;
 }
 
 .twtitle {
