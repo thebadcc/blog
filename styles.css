@@ -256,7 +256,7 @@ nav ul li ul li a {
 }
 .tabsy input[type="radio"]:checked + label {
 	background: #fff;
-	color: red;
+	color: #EB3E3E;
 }
 .tabsy input[type="radio"]:checked + label + .taby {
 	display: block;
