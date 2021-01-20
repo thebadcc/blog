@@ -523,6 +523,11 @@ button.toggle-br .active {
     align-items: center;
 }
 
+.flex-justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .social-icon[data-v-104032fa] {
     font-size: 36px;
     color: #a2a19f;
