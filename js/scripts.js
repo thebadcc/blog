@@ -20,13 +20,13 @@
 
 $(".tab_content").hide();
     $(".tab_content:first").show();
-    $("ul.nav-dropdown li").click(function() {
+    $("ul.nav-list li").click(function() {
 		
       $(".tab_content").hide();
       var activeTab = $(this).attr("rel"); 
       $("#"+activeTab).fadeIn();		
 		
-      $("ul.nav-dropdown li").removeClass("active");
+      $("ul.nav-list li").removeClass("active");
       $(this).addClass("active");
 
 	  $(".tab_drawer_heading").removeClass("d_active");
@@ -42,11 +42,11 @@ $(".tab_content").hide();
 	  $(".tab_drawer_heading").removeClass("d_active");
       $(this).addClass("d_active");
 	  
-	  $("ul.nav-dropdown li").removeClass("active");
-	  $("ul.nav-dropdown li[rel^='"+d_activeTab+"']").addClass("active");
+	  $("ul.nav-list li").removeClass("active");
+	  $("ul.nav-list li[rel^='"+d_activeTab+"']").addClass("active");
     });
 
-	$('ul.nav-dropdown li').last().addClass("tab_last");
+	$('ul.nav-list li').last().addClass("tab_last");
 
 
 
