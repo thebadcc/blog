@@ -144,6 +144,7 @@ nav ul li ul li a {
 }
 .navigation {
   height: 70px;
+  margin-top: 25px;	
 }
 
 .nav-container {
@@ -293,11 +294,7 @@ nav ul li ul li a {
 }	
 }
 
-footer {
-    text-align: center;
-    height: 60px;
-    width: 100%;
-}
+
 
 .cardRows {
 	font: 300 16px "Open Sans";
@@ -499,6 +496,14 @@ button.toggle-br:hover .icon {
 
 button.toggle-br .active {
 	color: #1d1d1d;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    height: 60px;
+    width: 100%;
 }
 
 .footer[data-v-104032fa] {
