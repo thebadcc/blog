@@ -506,6 +506,17 @@ button.toggle-br .active {
     border-top: 2px solid #e8e7e4;
 }
 
+.footer .footer-inner[data-v-104032fa] {
+    max-width: 100%;
+    width: 600px;
+    padding: 0 32px;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
 .flex-all-center {
     display: flex;
     justify-content: center;
@@ -525,3 +536,5 @@ button.toggle-br .active {
 #app a {
     text-decoration: none;
 }
+
+
