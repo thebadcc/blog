@@ -542,4 +542,7 @@ button.toggle-br .active {
     text-decoration: none;
 }
 
+a, u {
+    text-decoration: none;
+}
 
