@@ -500,3 +500,28 @@ button.toggle-br:hover .icon {
 button.toggle-br .active {
 	color: #1d1d1d;
 }
+
+.footer[data-v-104032fa] {
+    height: 132px;
+    border-top: 2px solid #e8e7e4;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon[data-v-104032fa] {
+    font-size: 36px;
+    color: #a2a19f;
+    cursor: pointer;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+#app a {
+    text-decoration: none;
+}
