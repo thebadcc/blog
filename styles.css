@@ -70,6 +70,10 @@ nav ul li ul li a {
   width: 70px;
 }
 
+.active a {
+	color: #EB3E3E;
+}
+
 #nav-toggle {
   position: absolute;
   left: 18px;
