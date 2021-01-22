@@ -571,4 +571,7 @@ a, u {
 	
 }
 
+.medium-widget-article__image img {
+    display: none;
+}
 
