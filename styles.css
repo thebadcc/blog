@@ -565,8 +565,10 @@ a, u {
 /* Medium */
 
 .medium-widget-article__item {
-	    background: white;
+ 	background: white;
     border-radius: 15px;
+	margin: 20px;
+	
 }
 
 
