@@ -560,3 +560,11 @@ a, u {
     text-decoration: none;
 }
 
+/* Medium */
+
+.medium-widget-article__item {
+	    background: white;
+    border-radius: 15px;
+}
+
+
