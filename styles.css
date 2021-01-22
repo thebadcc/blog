@@ -4,8 +4,6 @@ background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 body {
 	margin: 0;
 	height: 100%;
-	padding-right: 10%;
-	padding-left: 10%;
 	font-family: system-ui;
 }
 
