@@ -135,5 +135,5 @@ $(document).ready(function() {
 } );
 
 window.onload = function () {
-     document.getElementById("campaign-alert").style.display = "none";
+     document.getElementById("loading").style.display = "none";
 };
