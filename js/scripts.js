@@ -143,6 +143,6 @@ function wait(ms){
 }
 
 window.onload = function () {	
-     wait(5000);
+     wait(3000);
      document.getElementById("loading").style.display = "none";
 };
