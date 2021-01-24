@@ -134,7 +134,15 @@ $(document).ready(function() {
     })  
 } );
 
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+
 window.onload = function () {	
-     await delay(5000);
+     wait(5000);
      document.getElementById("loading").style.display = "none";
 };
