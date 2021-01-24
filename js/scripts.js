@@ -135,6 +135,6 @@ $(document).ready(function() {
 } );
 
 window.onload = function () {	
-     setTimeout('', 5000);
+     await delay(5000);
      document.getElementById("loading").style.display = "none";
 };
