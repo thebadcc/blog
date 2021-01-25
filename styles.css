@@ -218,6 +218,7 @@ height: 70px;
 	float: left;
 	width: 100%;
 	overflow: auto;
+	display: none;
 }
 
 .tab_content {
