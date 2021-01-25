@@ -25,3 +25,7 @@ https://codepen.io/Tampon/pen/qBZJvRX
 https://codepen.io/scanfcode/pen/MEZPNd/
 
 https://codepen.io/SampathParavasthu/pen/QoLyNR
+
+https://codepen.io/hectorguo/pen/BoZEyW
+
+https://codepen.io/carlita712/pen/mNLzye
