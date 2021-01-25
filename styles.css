@@ -469,7 +469,7 @@ display: block
     width: 70px;
     float: left;
     border-radius: 50%;
-    border: solid 1px;
+    border: solid 1px gray;
     margin-right: 15px;
 }
 
