@@ -448,6 +448,14 @@ footer {
     padding: 0 32px;
 }
 
+.footer-inner[data-v-104032fa] a:hover {
+
+.socialbrand {
+display: block
+}
+	
+}
+
 .socialbrand {
     position: absolute;
     padding-left: 20px;
@@ -456,6 +464,7 @@ footer {
     text-transform: uppercase;
     font-size: 1.4em;
     margin-top: 10px;
+    display: none;
 
 }
 
