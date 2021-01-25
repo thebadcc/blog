@@ -145,4 +145,5 @@ function wait(ms){
 window.onload = function () {	
      wait(3000);
      document.getElementById("loading").style.display = "none";
+     document.getElementByClassName("tab_container").stype.display = "block";
 };
