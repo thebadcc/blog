@@ -353,13 +353,13 @@ height: 70px;
 }
 
 .img-avatar img {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  border-radius: 50%;
-  border: 6px solid white;
-  top: 15px;
-  left: 85px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid gray;
+    top: 15px;
+    left: 85px;
 }
 
 .card-text {
@@ -412,7 +412,6 @@ button {
   width: 400px;
   margin: 10px;
 }
-/*Flexbox*/
 .flex {
   padding: 0;
   margin: 0;
