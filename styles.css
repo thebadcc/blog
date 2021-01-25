@@ -482,6 +482,15 @@ a, u {
     text-decoration: none;
 }
 
+.socialbrand {
+display: none;
+}
+
+.socialbrand:hover {
+display: block;	
+}
+
+
 /* Medium */
 
 .medium-widget-article__item {
@@ -581,4 +590,5 @@ aside{
     transform:skew(45deg) translateX(200%);
   }
 }
+
 
