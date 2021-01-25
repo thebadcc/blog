@@ -448,12 +448,8 @@ footer {
     padding: 0 32px;
 }
 
-.footer-inner[data-v-104032fa] a:hover {
-
-.socialbrand {
+.footer-inner[data-v-104032fa] a:hover > .socialbrand {
 display: block
-}
-	
 }
 
 .socialbrand {
