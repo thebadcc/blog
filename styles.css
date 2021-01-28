@@ -554,14 +554,6 @@ $font: Lato;
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: $font;
-  background: #f5f5f5;
-}
-
 .page {
   display: flex;
   position: relative;
