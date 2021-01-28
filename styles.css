@@ -7,6 +7,17 @@ body {
 	font-family: system-ui;
 }
 
+@media only screen and (max-width: 450px) {
+  .brand img {
+    display: none;
+  }
+
+  .navigation {
+	  padding-right: 0;
+    	padding-left: 0;
+	}
+  
+}
 
 
 @charset "UTF-8";
