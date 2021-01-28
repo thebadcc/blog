@@ -530,7 +530,7 @@ a, u {
  	background: white;
     border-radius: 15px;
 	margin: 10px;
-	
+	box-shadow: 0 1px 3px rgb(0 0 0 / 32%);
 }
 
 .medium-widget-article__image img {
