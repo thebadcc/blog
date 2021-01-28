@@ -583,7 +583,7 @@ a, u {
 
 .left header {
   position: relative;
-  // top: 2rem;
+  top: 2rem;
   padding: 2rem;
   color: #fff;
   text-align: center;
@@ -649,7 +649,7 @@ a, u {
   }
 }
 
-// right side
+right side
 .project-list {
   display: flex;
   flex-wrap: wrap;
@@ -734,8 +734,6 @@ a, u {
     h5 { margin: 0; }
   }
 }
-
-// base
 
 a {
   &:hover, &:focus {
