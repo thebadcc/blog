@@ -542,7 +542,6 @@ a, u {
 .page {
   display: flex;
   position: relative;
-  height: 100%;
 }
 @media (max-width: 1000px) {
   .page {
