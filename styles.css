@@ -571,8 +571,6 @@ a, u {
 .right {
   position: relative;
   margin: auto;
-  width: calc(100% - 335px);
-  padding: 3rem;
 }
 @media (max-width: 1000px) {
   .right {
@@ -652,7 +650,7 @@ a, u {
 }
 
 .project-item {
-  width: 33.333%;
+  width: 30.333%;
   padding: 0.5rem;
   transition: 400ms ease;
 }
