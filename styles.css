@@ -656,7 +656,7 @@ a, u {
 }
 @media (max-width: 1000px) {
   .project-item {
-    width: 50% !important;
+    width: 46% !important;
   }
 }
 @media (max-width: 600px) {
