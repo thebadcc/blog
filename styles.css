@@ -539,21 +539,6 @@ a, u {
 
 /* Projects */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,100,300,700');
-
-$main: #376FFF;
-$darker: #3164E4;
-$def-trans: 400ms;
-$font: Lato;
-
-:root {
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .page {
   display: flex;
   position: relative;
