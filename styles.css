@@ -757,8 +757,6 @@ a:hover, a:focus {
   justify-content: space-between;
   padding: 0.75rem;
   padding-bottom: 0.25rem;
-  background: #f0f0f0;
-  border-top: 1px solid #ddd;
   color: #777;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
