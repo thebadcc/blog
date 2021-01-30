@@ -745,6 +745,20 @@ a:hover, a:focus {
     transition: 400ms;
 }
 
+#second-content {
+	background: url(https://github.com/thebadcc/blog/blob/main/images/180_-60.PNG?raw=true);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 400ms;
+}
+
+#third-content {
+	background: url(https://github.com/thebadcc/blog/blob/main/images/16_Rand.PNG?raw=true);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 400ms;
+}
+
 
 .project-item .location-inner {
   padding-bottom: 0;
