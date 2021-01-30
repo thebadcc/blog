@@ -740,6 +740,9 @@ a:hover, a:focus {
 
 #first-content {
 	background: url(https://github.com/thebadcc/blog/blob/main/images/16_Rand.PNG?raw=true);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 400ms;
 }
 
 
