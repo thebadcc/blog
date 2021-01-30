@@ -732,6 +732,13 @@ a:hover, a:focus {
 
 /* Locations */
 
+.content img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
 .project-item .location-inner {
   padding-bottom: 0;
   border-radius: 10px;
