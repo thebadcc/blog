@@ -738,6 +738,10 @@ a:hover, a:focus {
   border-radius: 50%;
 }
 
+#first-content {
+	background: url(https://github.com/thebadcc/blog/blob/main/images/16_Rand.PNG?raw=true);
+}
+
 
 .project-item .location-inner {
   padding-bottom: 0;
