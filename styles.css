@@ -744,7 +744,7 @@ a:hover, a:focus {
   color: #444;
 }
 
-.location-inner .item-footer {
+.location-inner .location-footer {
   display: flex;
   justify-content: space-between;
   padding: 0.75rem;
@@ -755,16 +755,16 @@ a:hover, a:focus {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.location-inner .item-footer .item-person {
+.location-inner .location-footer .location-person {
   position: relative;
   top: -4px;
 }
-.location-inner .item-footer .item-person img {
+.location-inner .location-footer .location-person img {
   height: 1.75rem;
   width: 1.75rem;
   border-radius: 50%;
 }
-.location-inner .item-footer .item-person span {
+.location-inner .item-footer .location-person span {
   margin-left: 0.5rem;
 }
 .location-inner .item-footer .date {
