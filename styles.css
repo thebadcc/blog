@@ -573,6 +573,7 @@ a, u {
 .right {
   position: relative;
   margin: auto;
+  width: 100%;	
 }
 @media (max-width: 1000px) {
   .right {
