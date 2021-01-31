@@ -685,6 +685,7 @@ a, u {
 
 .item-inner .content {
   padding: 1.5rem;
+    min-height: 150px;
 }
 .item-inner .content h3 {
   margin-top: 0;
@@ -693,6 +694,7 @@ a, u {
 .item-inner .content p {
   margin-bottom: 1rem;
   color: #444;
+	
 }
 
 .item-inner .item-footer {
