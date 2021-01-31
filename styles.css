@@ -705,6 +705,7 @@ a, u {
   color: #777;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  display: none;
 }
 .item-inner .item-footer .item-person {
   position: relative;
