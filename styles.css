@@ -153,6 +153,12 @@ nav ul li ul li a {
   .nav-dropdown {
     position: static;
   }
+  .navigation {
+    border-bottom: 2px solid #e8e7e4;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    background: white;
+}
 }
 @media screen and (min-width: 800px) {
   .nav-list {
@@ -164,6 +170,9 @@ nav ul li ul li a {
 	padding-right: 10%;
     	padding-left: 10%;
 	background: white;
+}
+.nav-container {
+	padding: 0 !important
 }
 
 .nav-container {
