@@ -837,22 +837,27 @@ ul.tabs{
 	list-style: none;
 }
 ul.tabs li{
-	background: none;
-	color: #222;
-	display: inline-block;
-	padding: 10px 15px;
-	cursor: pointer;
+    background: white;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 32%);	
 }
 
 ul.tabs li.current{
-	background: #ededed;
-	color: #222;
+	background: black;
+    	color: white;
 }
 
 .tab-content{
 	display: none;
-	background: #ededed;
+	background: white;
 	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 32%);
 }
 
 .tab-content.current{
