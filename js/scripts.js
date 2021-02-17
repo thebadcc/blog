@@ -147,3 +147,11 @@ $(document).ready(function(){
 	})
 
 })
+
+ethereumButton.addEventListener('click', () => {
+  getAccount();
+});
+
+async function getAccount() {
+  accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+}
