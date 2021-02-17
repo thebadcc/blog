@@ -147,7 +147,7 @@ $(document).ready(function(){
 	})
 
 })
-
+const ethereumButton = document.querySelector('.enableEthereumButton');
 ethereumButton.addEventListener('click', () => {
   getAccount();
 });
