@@ -415,19 +415,6 @@ path {
     object-fit: cover;
 }
 
-button {
-  border: none;
-  background: none;
-  font-size: 24px;
-  color: #8bc34a;
-  cursor: pointer;
-  transition:.5s;
-  &:hover{
-    color: #4CAF50  ;
-    transform: rotate(22deg)
-  }
-}
-
 .container {
   list-style:none;
   margin: 0;
