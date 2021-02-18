@@ -442,6 +442,10 @@ path {
 
 
 /* Footer */ 
+
+footer {
+    border-top: 2px solid #e8e7e4;
+}
 .site-footer
 {
   background-color: White;
@@ -451,6 +455,8 @@ path {
   color:#737373;
 	padding-left: 10%;
     padding-right: 10%;
+	
+
 }
 .site-footer hr
 {
