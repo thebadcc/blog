@@ -609,17 +609,19 @@ path {
 }
 
 @media (min-width: 992px)
+{
 .col-md-6 {
     width: 75%;
     float: left;
 }
-
+}
 @media (min-width: 992px)
+{
 .col-md-3 {
     width: 25%;
     float: left;
 }
-
+}
 /* Blog */
 
 .medium-widget-article__item {
