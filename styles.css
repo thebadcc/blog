@@ -208,6 +208,7 @@ nav ul li ul li a {
     margin-top: -7;
     margin-right: 15;
     background: white;
+    display: none;
 }
 .logo {
 	width: 50px;
