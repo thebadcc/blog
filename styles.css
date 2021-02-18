@@ -607,6 +607,14 @@ path {
   }
 }
 
+#app a {
+    text-decoration: none;
+}
+
+a, u {
+    text-decoration: none;
+}
+
 
 
 /* Blog */
