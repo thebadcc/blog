@@ -1,7 +1,8 @@
-/* General */
+/* HTML & Body */
+
 html {
-background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
+
 body {
 	margin: 0;
 	height: 100%;
@@ -18,8 +19,7 @@ body {
   .navigation {
 	  padding-right: 0;
     	padding-left: 0;
-	}
-  
+	} 
 }
 
 @charset "UTF-8";
@@ -234,6 +234,7 @@ nav ul li ul li a {
     margin-top: 15px;
 }
 
+/* Section */
 
 .pages {
 	min-height: 100%;	
@@ -274,68 +275,6 @@ nav ul li ul li a {
 		background-color: #666;
 		color: #fff;
 	}
-}
-
-
-.tabsy {
-	display: flex;
-	flex-wrap: wrap;
-	border-top: solid 2px;
-}
-.tabsy label {
-	order: 1;
-	display: block;
-	padding: 1rem 2rem;
-	margin-right: 0.2rem;
-	cursor: pointer;
-	font-weight: bold;
-	transition: background ease 0.2s;
-	border-radius: 10px 10px 0 0;
-	font-family: system-ui;
-	z-index: 10;
-}
-.tabsy .taby {
-	order: 99;
-	flex-grow: 1;
-	width: 100%;
-	display: none;
-	padding: 1rem;
-	background: #fff;
-	border-top: solid 2px;
-}
-.tabsy input[type="radio"] {
-	display: none;
-}
-.tabsy input[type="radio"]:checked + label {
-	background: #fff;
-	color: #EB3E3E;
-}
-.tabsy input[type="radio"]:checked + label + .taby {
-	display: block;
-}
-
-@media only screen and (max-width: 800px) {
-  .tabsy .taby,
-  .tabsy label {
-    order: initial;
-    display: none;
-  }
-  .taby {
-	border-top: none !important;
-}
-  .tabsy label {
-	width: 100%;
-	margin-right: 0;
-	margin-top: 0.2rem;
-	border: solid 2px !important;
-	border-radius: 10px 10px 10px 10px;
-	  
-	  
-  }
-  .products {
-	display: block;;
-	
-}	
 }
 
 /* Locations */
