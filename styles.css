@@ -640,13 +640,7 @@ path {
 }
 
 .medium-widget-article__title {
-    display: inline-block;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 18px;
-    color: #3164E4;
-    border: none;
-    text-decoration: none;
+    color: #3164E4 !important;
 }
 
 /* Projects */
