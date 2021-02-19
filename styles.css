@@ -242,6 +242,12 @@ nav ul li ul li a {
 	min-height: 100%;	
 }
 
+.motto {
+    font-size: 4em;
+    color: dodgerblue;
+    margin-bottom: 50px;
+}
+
 .tab_container {
 	clear: both;
 	width: 100%;
@@ -509,7 +515,7 @@ nav ul li ul li a {
 }
 
 .medium-widget-article__title {
-    color: #3164E4 !important;
+    color: dodgerblue !important;
 }
 
 /* Projects */
@@ -672,7 +678,7 @@ a, u {
 }
 .item-inner .content h3 {
   margin-top: 0;
-  color: #3164E4;
+  color: dodgerblue;
 }
 .item-inner .content p {
   margin-bottom: 1rem;
