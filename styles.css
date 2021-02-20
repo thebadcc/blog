@@ -317,6 +317,10 @@ nav ul li ul li a {
 
 /* Footer */ 
 
+
+.text-justify {
+	margin-right: 30px;
+}
 .site-footer
 {
   background-color: White;
