@@ -177,8 +177,8 @@ async function getAccount() {
     var logIn = String(accounts);
     var front = logIn.substring(0, 5);
     var back = logIn.substring(38, 42);
-    var fullAccount = front & "..." & back
-    showAccount.innerHTML = fullAccount;
+
+    showAccount.innerHTML = back;
 
 
   connectAccount.innerHTML = "";
