@@ -202,13 +202,13 @@ nav ul li ul li a {
 }
 
 .metaMask {
-    float: left;
+    float: right;
     border-radius: 50%;
     border: solid 1px gray;
     margin-top: -7;
     margin-right: 15;
-    background: white;
-    display: none;
+    background: dodgerblue;
+    color: white;
 }
 .logo {
 	width: 50px;
