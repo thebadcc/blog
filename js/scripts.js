@@ -165,6 +165,9 @@ $(document).ready(function(){
 
 })
 const ethereumButton = document.querySelector('.metaMask');
+const showAccount = document.querySelector('.showAccount');
+const connectAccount = document.querySelector('.connectAccount');
+
 ethereumButton.addEventListener('click', () => {
   getAccount();
 });
