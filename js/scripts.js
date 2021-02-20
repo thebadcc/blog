@@ -174,8 +174,9 @@ ethereumButton.addEventListener('click', () => {
 
 async function getAccount() {
   accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-    var front = accounts.substring(0, 5);
-	showAccount.innerHTML = front;
+    var logIn - String(accounts)
+    var front = logIn.substring(0, 5);
+    showAccount.innerHTML = front;
 
 
   connectAccount.innerHTML = "";
