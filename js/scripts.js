@@ -190,7 +190,7 @@ async function getAccount() {
 
 Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-c.json', function (data) {
     // Create the chart
-    Highcharts.stockChart('container', {
+    Highcharts.stockChart('bad-chart', {
 
 
         rangeSelector: {
