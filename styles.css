@@ -821,3 +821,16 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+
+/* BAD Token */
+
+.bad-token-wrapper {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 32%);
+    border-radius: 20px;
+}
+
+.token-logo img {
+    width: 100px;
+}
