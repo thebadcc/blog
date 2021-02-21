@@ -838,3 +838,10 @@ ul.tabs li.current{
 .highcharts-title {
 	display: none;
 }
+
+.project-item2 {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    color: gray;
+}
