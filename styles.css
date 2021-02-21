@@ -844,4 +844,39 @@ ul.tabs li.current{
     padding: 20px;
     border-radius: 20px;
     color: gray;
+	  width: 30.333%;
+  padding: 0.5rem;
+  transition: 400ms ease;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .project-item2 {
+    width: 46% !important;
+  }
+}
+@media (max-width: 600px) {
+  .project-item2 {
+    width: 100% !important;
+  }
+}
+.project-item2 .item-inner {
+  padding-bottom: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.32);
+  transition: 400ms;
+}
+.project-item2 .item-inner:hover, .project-item2 .item-inner:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32);
+}
+@media (max-width: 900px) {
+  .project-item2 {
+    width: 100%;
+  }
 }
