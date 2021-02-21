@@ -43,7 +43,6 @@ nav ul li {
     position: relative;
     font-family: system-ui;
     display: block;
-    padding: 0 20px;
     line-height: 70px;
     color: black;
     text-decoration: none;
@@ -149,6 +148,7 @@ nav ul li ul li a {
   }
   nav ul li {
     float: none;
+    padding: 0 20px;
 	
   }
   nav ul li a {
