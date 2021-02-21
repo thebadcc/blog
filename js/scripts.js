@@ -178,7 +178,7 @@ async function getAccount() {
     var front = logIn.substring(0, 5);
     var middle = "...";
     var back = logIn.substring(38, 42);
-    var fullLogIn = font.concat(middle, back)
+    var fullLogIn = front.concat(middle, back)
 	
 
     showAccount.innerHTML = fullLogIn;
