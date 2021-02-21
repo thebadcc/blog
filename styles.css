@@ -834,3 +834,7 @@ ul.tabs li.current{
 .token-logo img {
     width: 100px;
 }
+
+.highcharts-title {
+	display: none;
+}
