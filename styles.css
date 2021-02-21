@@ -840,13 +840,14 @@ ul.tabs li.current{
 }
 
 .project-item2 {
-    background: lightgray;
     padding: 20px;
     border-radius: 20px;
     color: gray;
-	  width: 30.333%;
+	margin: 5;
+	width: 30.333%;
   padding: 0.5rem;
   transition: 400ms ease;
+	background-color: rgba(243, 243, 243);
 }
 
 .project-list {
