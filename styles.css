@@ -882,6 +882,19 @@ ul.tabs li.current{
   }
 }
 
+.item-inner2 {
+	padding: 10px;	
+}
+
+.content p {
+	margin: 0;
+    margin-bottom: 10px;
+}
+
+.content img {
+	width: 100%;
+}
+
 .token-logo {
     margin-bottom: 40px;
     margin-top: 20;
