@@ -881,3 +881,9 @@ ul.tabs li.current{
     width: 100%;
   }
 }
+
+.token-logo {
+    margin-bottom: 40px;
+    margin-top: 20;
+    margin-left: 20px;
+}
