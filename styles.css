@@ -832,7 +832,7 @@ ul.tabs li.current{
 }
 
 .token-logo img {
-    width: 100px;
+    width: 80px;
 }
 
 .highcharts-title {
@@ -890,7 +890,7 @@ ul.tabs li.current{
 
 .token-image {
     float: left;
-    margin-top: 15;
+    margin-top: 10;
     margin-right: 20;
 }
 
@@ -903,6 +903,7 @@ ul.tabs li.current{
 }
 
 .token-price {
-	margin:0;
+	    margin: 0;
+    font-size: 30;
 }
 
