@@ -857,7 +857,7 @@ ul.tabs li.current{
   padding-bottom: 3rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .project-item2 {
     width: 29% !important;
   }
