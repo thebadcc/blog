@@ -845,7 +845,7 @@ ul.tabs li.current{
     border-radius: 10px;
     color: gray;
 	margin: 5;
-	width: 30.333%;
+	width: 22%;
   padding: 0.5rem;
   transition: 400ms ease;
 	background-color: rgba(243, 243, 243);
@@ -859,12 +859,12 @@ ul.tabs li.current{
 
 @media (max-width: 1000px) {
   .project-item2 {
-    width: 46% !important;
+    width: 29% !important;
   }
 }
 @media (max-width: 600px) {
   .project-item2 {
-    width: 100% !important;
+    width: 45% !important;
   }
 }
 .project-item2 .item-inner {
