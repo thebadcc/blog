@@ -869,7 +869,17 @@ ul.tabs li.current{
   }
 }
 
+@media (max-width: 720px) {
+  .project-item2 {
+    width: 43% !important;
+  }
+}
 
+@media (max-width: 530px) {
+  .project-item2 {
+    width: 41% !important;
+  }
+}
 
 @media (max-width: 500px) {
   .project-item2 {
