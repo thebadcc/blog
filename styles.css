@@ -862,6 +862,12 @@ ul.tabs li.current{
     width: 29% !important;
   }
 }
+
+@media (max-width: 825px) {
+  .project-item2 {
+    width: 45%;
+  }
+}
 @media (max-width: 600px) {
   .project-item2 {
     width: 45% !important;
@@ -877,11 +883,7 @@ ul.tabs li.current{
 .project-item2 .item-inner:hover, .project-item2 .item-inner:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32);
 }
-@media (max-width: 900px) {
-  .project-item2 {
-    width: 100%;
-  }
-}
+
 
 .item-inner2 {
 	padding: 10px;	
