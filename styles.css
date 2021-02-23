@@ -868,9 +868,10 @@ ul.tabs li.current{
     width: 45%;
   }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 500px) {
   .project-item2 {
-    width: 45% !important;
+    width: 100% !important;
   }
 }
 .project-item2 .item-inner {
