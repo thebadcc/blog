@@ -665,7 +665,7 @@ a, u {
 .project-item .item-inner {
   padding-bottom: 0;
   border-radius: 10px;
-  background: #fff;
+  background: black;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.32);
   transition: 400ms;
 }
@@ -684,11 +684,11 @@ a, u {
 }
 .item-inner .content h3 {
   margin-top: 0;
-  color: dodgerblue;
+  color: White;
 }
 .item-inner .content p {
   margin-bottom: 1rem;
-  color: #444;
+  color: #737373;
 	
 }
 
