@@ -163,8 +163,6 @@ nav ul li ul li a {
     position: static;
   }
   .navigation {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
     background: black;
 }
 }
