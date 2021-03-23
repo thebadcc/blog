@@ -48,6 +48,7 @@ nav ul li {
     color: black;
     text-decoration: none;
 	cursor: pointer;
+	display: none;
 }
 nav ul li a {
   display: block;
@@ -202,13 +203,14 @@ nav ul li ul li a {
 }
 
 .metaMask {
-    border-radius: 15px;
+border-radius: 5px;
     border: solid 1px gray;
     margin-top: 21;
     background: white;
     color: black;
     height: 30px;
     font-family: system-ui;
+    font-size: 15;
 }
 .logo {
 	width: 50px;
