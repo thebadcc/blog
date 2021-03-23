@@ -164,10 +164,9 @@ nav ul li ul li a {
     position: static;
   }
   .navigation {
-    border-bottom: 2px solid #e8e7e4;
     padding-right: 0 !important;
     padding-left: 0 !important;
-    background: white;
+    background: black;
 }
 }
 @media screen and (min-width: 800px) {
