@@ -1,7 +1,7 @@
 /* HTML & Body */
 
 html {
-	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	background: black;
 
 }
 
@@ -258,7 +258,7 @@ nav ul li ul li a {
 	clear: both;
 	width: 100%;
 	overflow: auto;
-	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	background: black;
 }
 
 .tab_content {
