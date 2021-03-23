@@ -242,10 +242,17 @@ nav ul li ul li a {
 	min-height: 100%;	
 }
 
+.login {
+    padding: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
 .motto {
     font-size: 4em;
     color: #737373;
     margin-bottom: 50px;
+
 }
 
 .tab_container {
