@@ -186,7 +186,7 @@ async function getAccount() {
 
   connectAccount.innerHTML = "";
 
-    const listItems = document.querySelectorAll('.navi ul li');
+    const listItems = document.querySelectorAll('.nav ul li');
     for (let i = 0; i <= listItems.length - 1; i++) {
         console.log(listItems[i]);
     }
