@@ -28,7 +28,6 @@ body {
 nav {
   float: right;
   margin-top: 10px;
-	display: none;
 }
 nav ul {
   list-style: none;
@@ -261,7 +260,7 @@ nav ul li ul li a {
 	width: 100%;
 	overflow: auto;
 	background: black;
-	display: none;
+
 }
 
 .tab_content {
