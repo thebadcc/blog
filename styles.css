@@ -53,7 +53,7 @@ nav ul li a {
   display: block;
   padding: 0 20px;
   line-height: 70px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 nav ul li a:hover {
@@ -237,7 +237,7 @@ nav ul li ul li a {
     font-size: 5px;
     line-height: 1;
     font-weight: bold;
-    color: black;
+    color: white;
     margin-top: 15px;
 }
 
