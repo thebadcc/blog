@@ -167,9 +167,13 @@ $(document).ready(function(){
 const ethereumButton = document.querySelector('.metaMask');
 const showAccount = document.querySelector('.showAccount');
 const connectAccount = document.querySelector('.connectAccount');
+const listItems = document.querySelectorAll('.nav ul li');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
+	  for (let i = 0; i <= listItems.length - 1; i++) {
+        console.log(listItems[i]);
+    }
 });
 
 async function getAccount() {
@@ -186,10 +190,8 @@ async function getAccount() {
 
   connectAccount.innerHTML = "";
 
-    const listItems = document.querySelectorAll('.nav ul li');
-    for (let i = 0; i <= listItems.length - 1; i++) {
-        console.log(listItems[i]);
-    }
+    
+  
 }
 
 
