@@ -57,7 +57,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li a:hover {
-  color: black;
+  color: white;
 }
 nav ul li a:not(:only-child):after {
   padding-left: 4px;
