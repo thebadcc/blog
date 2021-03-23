@@ -326,14 +326,13 @@ nav ul li ul li a {
 }
 .site-footer
 {
-  background-color: White;
+  background-color: black;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
 	padding-left: 10%;
     padding-right: 10%;
-	    border-top: 2px solid #e8e7e4;
 
 	
 
@@ -349,7 +348,7 @@ nav ul li ul li a {
 }
 .site-footer h6
 {
-  color: Black;
+  color: white;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
