@@ -185,29 +185,12 @@ async function getAccount() {
 
 
   connectAccount.innerHTML = "";
+
+    const listItems = document.querySelectorAll('.navi ul li');
+    for (let i = 0; i <= listItems.length - 1; i++) {
+        console.log(listItems[i]);
+    }
 }
 
 
-Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-c.json', function (data) {
-    // Create the chart
-    Highcharts.stockChart('bad-chart', {
-
-
-        rangeSelector: {
-            selected: 1
-        },
-
-        title: {
-            text: 'AAPL Stock Price'
-        },
-
-        series: [{
-            name: 'AAPL',
-            data: data,
-            tooltip: {
-                valueDecimals: 2
-            }
-        }]
-    });
-});
 
