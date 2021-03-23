@@ -257,6 +257,10 @@ border-radius: 5px;
 
 }
 
+#tab1 {
+	display: none;
+}
+
 .tab_container {
 	clear: both;
 	width: 100%;
