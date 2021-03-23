@@ -172,7 +172,7 @@ const listItems = document.querySelectorAll('nav ul li');
 ethereumButton.addEventListener('click', () => {
   getAccount();
 	  for (let i = 0; i <= listItems.length - 1; i++) {
-        console.log(listItems[i]);
+        listItems[i].style.display = "block";
     }
 });
 
