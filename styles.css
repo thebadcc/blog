@@ -144,8 +144,7 @@ nav ul li ul li a {
   }
   nav ul {
     display: none;
-    border-bottom: 2px solid #e8e7e4;
-    background: white;
+    background: black;
   }
   nav ul li {
     float: none;
