@@ -187,10 +187,10 @@ async function getAccount() {
     var fullLogIn = front.concat(middle, back)
     showAccount.innerHTML = fullLogIn;
     connectAccount.innerHTML = "";
-    nav1.style.display = "block !important";
-    nav2.style.display = "block !important";
-    nav3.style.display = "block !important";
-    nav4.style.display = "block !important"; 
+    nav1.style = "display: block !important";
+    nav2.style = "display: block !important";
+    nav3.style = "display: block !important";
+    nav4.style = "display: block !important"; 
 }
 
 
