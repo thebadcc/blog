@@ -167,13 +167,15 @@ $(document).ready(function(){
 const ethereumButton = document.querySelector('.metaMask');
 const showAccount = document.querySelector('.showAccount');
 const connectAccount = document.querySelector('.connectAccount');
-const listItems = document.querySelectorAll('nav ul li');
+const nav1 = document.getElementById("nav1");
+const nav2 = document.getElementById("nav2");
+const nav3 = document.getElementById("nav3");
+const nav4 = document.getElementById("nav4");
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
-	  for (let i = 0; i <= listItems.length - 1; i++) {
-        listItems[i].style.display = "block !important";
-    }
+
+
 });
 
 async function getAccount() {
@@ -183,15 +185,12 @@ async function getAccount() {
     var middle = "...";
     var back = logIn.substring(38, 42);
     var fullLogIn = front.concat(middle, back)
-	
-
     showAccount.innerHTML = fullLogIn;
-
-
-  connectAccount.innerHTML = "";
-
-    
-  
+    connectAccount.innerHTML = "";
+    nav1.style.display = "block !important";
+    nav2.style.display = "block !important";
+    nav3.style.display = "block !important";
+    nav4.style.display = "block !important"; 
 }
 
 
