@@ -167,7 +167,7 @@ $(document).ready(function(){
 const ethereumButton = document.querySelector('.metaMask');
 const showAccount = document.querySelector('.showAccount');
 const connectAccount = document.querySelector('.connectAccount');
-const tab1 = document.getElementById("tab1");
+
 const nav1 = document.getElementById("nav1");
 const nav2 = document.getElementById("nav2");
 const nav3 = document.getElementById("nav3");
@@ -195,7 +195,7 @@ async function getAccount() {
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
     motto.style = "display: none !important";
-    tab1.style = "display: block !important";
+
 }
 
 
