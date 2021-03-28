@@ -173,6 +173,7 @@ const nav2 = document.getElementById("nav2");
 const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
+const firstPage = document.querySelector('.page');
 
 
 ethereumButton.addEventListener('click', () => {
@@ -195,7 +196,7 @@ async function getAccount() {
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
     motto.style = "display: none !important";
-
+    page.style = "display: flex !important";
 }
 
 
