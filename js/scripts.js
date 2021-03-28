@@ -173,7 +173,7 @@ const nav2 = document.getElementById("nav2");
 const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
-const firstPage = document.querySelector('.page');
+const page = document.querySelector('.page');
 
 
 ethereumButton.addEventListener('click', () => {
