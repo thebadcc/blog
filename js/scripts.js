@@ -174,7 +174,7 @@ const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
 const page = document.querySelector('.page');
-const metamaskRequired = document.querySelector('.metaMaskRequired');
+const metaMaskRequired = document.querySelector('.metaMaskRequired');
 
 
 ethereumButton.addEventListener('click', () => {
