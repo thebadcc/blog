@@ -175,6 +175,7 @@ const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
 const page = document.querySelector('.page');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
+const search = document.querySelector('.search-container');
 
 
 ethereumButton.addEventListener('click', () => {
@@ -199,6 +200,7 @@ async function getAccount() {
     motto.style = "display: none !important";
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
+    search.style = "display: block !important";
 }
 
 
