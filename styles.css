@@ -363,6 +363,7 @@ input#search-bar{
  }
 
 .search-icon{
+  filter: invert(100%);
   position: relative;
   float: right;
   width: 75px;
