@@ -331,9 +331,7 @@ border-radius: 5px;
 }
 
 .search-container{
-  width: 490px;
   display: block;
-  margin: 0 auto;
 }
 
 input#search-bar{
@@ -369,7 +367,6 @@ input#search-bar{
   width: 75px;
   height: 75px;
   top: -62px;
-  right: -45px;
 }
 
 
