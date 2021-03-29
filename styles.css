@@ -213,6 +213,14 @@ border-radius: 5px;
     font-family: system-ui;
     font-size: 15;
 }
+
+.metaMaskRequired {
+    color: white;
+    font-size: 12px;
+    float: right;
+    color: #737373;
+}
+
 .logo {
 	width: 50px;
     float: left;
