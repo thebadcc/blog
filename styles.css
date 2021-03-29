@@ -330,8 +330,8 @@ border-radius: 5px;
   justify-content: space-around;
 }
 
-.search-container{
-  display: block;
+.search-container {
+  display: none;
 }
 
 input#search-bar{
