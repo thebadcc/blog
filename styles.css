@@ -217,7 +217,7 @@ border-radius: 5px;
 .metaMaskRequired {
     color: white;
     font-size: 12px;
-    float: right;
+    text-align: right;
     color: #737373;
 }
 
