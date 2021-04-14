@@ -893,44 +893,38 @@ a:hover, a:focus {
 
 
 .badTokenContainer {
-  @include row();
   max-width: 1200px;
   margin: 0 auto;
 }
 
 
 .col--1 {
-  @include span-columns(3);
-  background-color: #333;
-  padding: 1em;
-  color: #ddd;
-  a {
-    color: #eee;
-    border-bottom: 1px dotted #eee;
-    line-height: 1.75em;
-  }
-  ul, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-indent: 0.5em;
-  }
-  @media(screen and max-width: 800px) {
-    @include span-columns(12);
-    @include row();
-  }
+    float: left;
+    display: block;
+    width: 23.5483034577%;
+}
+.col--5 {
+    float: left;
+    display: block;
+    width: 74.5161011526%;
 }
 
+@media (max-width: 800px) {
+.col--1 {
+    float: left;
+    display: block;
+    margin-right: 1.9355953897%;
+    width: 100%;
+    display: block;
+}
+	
 .col--5 {
-  @include span-columns(9);
-  background-color: #ddd;
-  padding: 1em;
-  color: #333;
-  @media(screen and max-width: 800px) {
-    @include span-columns(12);
-    @include row();
-    margin-top: 1rem;
-  }
+    float: left;
+    display: block;
+    width: 100%;
+    display: block;
+}
+	
 }
 
 /* Terms Tabs*/
