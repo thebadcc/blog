@@ -886,6 +886,11 @@ a:hover, a:focus {
     color: white;
 }
 
+.badInformation {
+	list-style-type: none;
+	color: white;
+}
+
 /* Terms Tabs*/
 
 ul.tabs{
