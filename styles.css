@@ -197,6 +197,7 @@ nav ul li ul li a {
     position: static;
   }
   .navigation {
+    display: none;
     background: black;
 }
 }
@@ -206,6 +207,7 @@ nav ul li ul li a {
   }
 }
 .navigation {
+	display: none;
 	 padding-right: 10%;
    	 padding-left: 10%;
 	background: black;
