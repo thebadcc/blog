@@ -869,26 +869,25 @@ a:hover, a:focus {
     position: relative;
     color: white;
     display: block;
-    top: -50px;
-    padding: 20px 0;
     font-size: 1.9em;
 }
 
 .badToken:before {
     font-size: 1.5em;
     content: "\005B";
-    color: white;
+    color: #737373;
 }
 
 .badToken:after {
     font-size: 1.5em;
     content: "\005D";
-    color: white;
+    color: #737373;
 }
 
 .badInformation {
 	list-style-type: none;
-	color: white;
+	color: #737373;
+	padding: 0;
 }
 
 /* Terms Tabs*/
