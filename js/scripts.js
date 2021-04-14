@@ -225,5 +225,5 @@ $(document).ready(function() {
 	$('.site-footer').show();
 	    
     }
-  }, 30);
+  }, 15);
 });
