@@ -220,7 +220,7 @@ $(document).ready(function() {
     if(counter == 101) {
         clearInterval(i);
         $('.loading-page').fadeOut();
-	$(body).show();
+	$('body').show();
 	    
     }
   }, 50);
