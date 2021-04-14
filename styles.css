@@ -863,6 +863,29 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+/* BAD Token Page */
+
+.badToken {
+    position: relative;
+    color: white;
+    display: block;
+    top: -50px;
+    padding: 20px 0;
+    font-size: 1.9em;
+}
+
+.badToken:before {
+    font-size: 1.5em;
+    content: "\005B";
+    color: white;
+}
+
+.badToken:after {
+    font-size: 1.5em;
+    content: "\005D";
+    color: white;
+}
+
 /* Terms Tabs*/
 
 ul.tabs{
