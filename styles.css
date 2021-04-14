@@ -83,12 +83,12 @@ body {
   text-align: center;
 }
 .loading-page .counter h1 {
-    color: #080808;
+    color: white;
     font-size: 20px;
     margin-top: -10px;
 }
 .loading-page .counter hr {
-  background: #080808;
+  background: white;
   border: none;
   height: 1px;
 }
