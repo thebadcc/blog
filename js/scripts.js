@@ -220,7 +220,9 @@ $(document).ready(function() {
     if(counter == 101) {
         clearInterval(i);
         $('.loading-page').fadeOut();
-	$('body').show();
+	$('.navigation').show();
+	$('.pages').show();
+	$('.site-footer').show();
 	    
     }
   }, 50);
