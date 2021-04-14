@@ -900,7 +900,7 @@ a:hover, a:focus {
 
 .badTokenResources {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
   grid-auto-rows: 200px;
   grid-gap: 20px;
   height: 100%;
@@ -909,10 +909,8 @@ a:hover, a:focus {
 
 .card {
   display: flex;
-  background: #f2f2f2;
   border-radius: 5px;
   justify-content: center;
-  box-shadow: 4px 4px 8px -3px rgba(0, 0, 0, 0.15);
 }
 
 .avatar {
