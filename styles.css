@@ -22,19 +22,19 @@ body {
     align-items: center;
 }
 
-.loading-page .counter {
+.counter {
     position: relative;
     width: 200px;
     text-align: center;
 }
 
-loading-page .counter h1 {
+.counter h1 {
     color: white;
     font-size: 60px;
     margin-top: -10px;
 }
 
-.loading-page .counter hr {
+.counter hr {
     background: white;
     border: none;
     height: 1px;
