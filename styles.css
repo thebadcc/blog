@@ -28,13 +28,13 @@ body {
 }
 
 .counter h1 {
-    color: #737373;;
+    color: #737373;
     font-size: 30px;
     margin-top: -10px;
 }
 
 .counter hr {
-    background:  #737373;;
+    background:  #737373;
     border: none;
     height: 1px;
 }
