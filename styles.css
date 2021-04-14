@@ -5,7 +5,6 @@ html {
 }
 
 body {
-	display: none;
 	margin: 0;
 	height: 100%;
 	font-family: system-ui;
@@ -48,6 +47,7 @@ body {
   }
 
   .navigation {
+	  display: none;
 	  padding-right: 0;
     	padding-left: 0;
 	} 
@@ -283,7 +283,7 @@ border-radius: 5px;
 /* Section */
 
 .pages {
-
+    display: none;
 }
 
 .login {
@@ -418,6 +418,7 @@ input#search-bar{
 }
 .site-footer
 {
+  display:none;
   background-color: black;
   padding:45px 0 20px;
   font-size:15px;
