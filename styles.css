@@ -901,9 +901,7 @@ a:hover, a:focus {
 .badTokenResources {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
-  grid-auto-rows: 200px;
   grid-gap: 20px;
-  height: 100%;
   justify-content: center;
 }
 
@@ -911,6 +909,7 @@ a:hover, a:focus {
   display: flex;
   border-radius: 5px;
   justify-content: center;
+  height: 100px;
 }
 
 .avatar {
