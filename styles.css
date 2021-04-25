@@ -256,6 +256,10 @@ border-radius: 5px;
     text-align: right;
 }
 
+.metaMaskInstall {
+text-decoration: none;	
+}
+
 .connectAccount {
 	display: none;	
 }
