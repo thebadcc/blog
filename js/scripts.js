@@ -163,7 +163,7 @@ if (provider) {
   startApp(provider); // initialize your app
 } else {
   console.log('Please install MetaMask!');
-}
+};
 
 	
 	
