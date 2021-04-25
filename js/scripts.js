@@ -155,7 +155,10 @@ $(document).ready(function(){
 
 if (typeof window.ethereum !== 'undefined') {
   const connectAccount = document.querySelector('.connectAccount');
-  connectAccount.style = "display: block !important";
+  const metaMaskInstall = document.querySelector('.metaMaskInstall');
+  metaMaskInstall.style = "display: none !important";
+    connectAccount.style = "display: block !important";
+	
 }
 
 	
