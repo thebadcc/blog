@@ -154,7 +154,8 @@ $(document).ready(function() {
 $(document).ready(function(){
 
 if (typeof window.ethereum !== 'undefined') {
-  console.log('MetaMask is installed!');
+  const connectAccount = document.querySelector('.connectAccount');
+  connectAccount.style = "display: block !important";
 }
 
 	
