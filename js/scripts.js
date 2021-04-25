@@ -152,6 +152,20 @@ $(document).ready(function() {
 } );
 
 $(document).ready(function(){
+
+import detectEthereumProvider from '@metamask/detect-provider';
+
+const provider = await detectEthereumProvider();
+
+if (provider) {
+  // From now on, this should always be true:
+  // provider === window.ethereum
+  startApp(provider); // initialize your app
+} else {
+  console.log('Please install MetaMask!');
+}
+
+	
 	
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
@@ -179,12 +193,10 @@ const search = document.querySelector('.search-container');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
-
-
 });
 
 async function getAccount() {
-  accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+    accounts = await ethereum.request({ method: 'eth_requestAccounts' });
     var logIn = String(accounts);
     var front = logIn.substring(0, 6);
     var middle = "...";
@@ -199,18 +211,6 @@ async function getAccount() {
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
-}
-
-import detectEthereumProvider from '@metamask/detect-provider';
-
-const provider = await detectEthereumProvider();
-
-if (provider) {
-  // From now on, this should always be true:
-  // provider === window.ethereum
-  startApp(provider); // initialize your app
-} else {
-  console.log('Please install MetaMask!');
 }
 
 
