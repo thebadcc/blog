@@ -292,9 +292,12 @@ color: black;
 }
 
 .motto {
-    font-size: 4em;
-    color: #737373;
-    margin-top: 50px;
+background: url(https://lh3.googleusercontent.com/cpRJ8-wGF9ToLMjpxx9aqkR8kyyirajCA3r45XUvpLgIiW4-qRelKToUvPYX9g73-yccq77MaLY_z5zvALn20XVd=s0);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  width: 100%;
+  height: 100%;
 
 }
 
