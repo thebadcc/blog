@@ -286,6 +286,12 @@ color: black;
     list-style: none;
 }
 
+.betaTag {
+    background: white;
+    border-radius: 19px;
+    border: none;	
+}
+
 /* Section */
 
 .pages {
