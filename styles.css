@@ -466,6 +466,10 @@ input#search-bar{
 {
   color:#737373;
 }
+
+.social-icons img {
+width: 40px;
+}
 .site-footer a:hover
 {
   color:#3366cc;
