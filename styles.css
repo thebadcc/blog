@@ -470,11 +470,7 @@ input#search-bar{
 .social-icons img {
 width: 40px;
 }
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
+
 .footer-links
 {
   padding-left:0;
@@ -488,11 +484,7 @@ width: 40px;
 {
   color:#737373
 }
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
+
 .footer-links.inline li
 {
   display:inline-block
