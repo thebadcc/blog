@@ -963,10 +963,7 @@ ul.tabs li.current{
 
 .tab-content{
 	display: none;
-	background: white;
-	padding: 15px;
-	border-radius: 10px;
-	box-shadow: 0 1px 3px rgb(0 0 0 / 32%);
+
 }
 
 .tab-content.current{
