@@ -971,5 +971,6 @@ ul.tabs li.current{
 
 .tab-content.current{
 	display: inherit;
+	background: black;
 }
 
