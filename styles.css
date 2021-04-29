@@ -716,7 +716,7 @@ a, u {
 
 .project-item {
   width: 30.333%;
-  padding: 0.5rem;
+  padding-right: 1rem;
   transition: 400ms ease;
 }
 @media (max-width: 1000px) {
