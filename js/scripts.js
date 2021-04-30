@@ -49,6 +49,20 @@ $(".tab_content").hide();
 	  
     });
 
+    $("ul.back-links li").click(function() {
+		
+      $(".tab_content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();		
+		
+      $("ul.back-links li").removeClass("active");
+      $(this).addClass("active");
+
+	  $(".tab_drawer_heading").removeClass("d_active");
+	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+	  
+    });
+
 
 	$(".tab_drawer_heading").click(function() {
       
