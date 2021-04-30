@@ -483,6 +483,17 @@ width: 40px;
   color:#737373
 }
 
+.back-links {
+float: right;
+font-size: 25;
+text-decoration: none;
+}
+
+.back-links li a {
+color:white;
+}
+
+
 .footer-links.inline li
 {
   display:inline-block
