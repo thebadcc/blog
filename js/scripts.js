@@ -249,3 +249,14 @@ $(document).ready(function() {
     }
   }, 15);
 });
+
+
+$('#search-bar').keyup(function(){
+    $('.project-item').hide();
+    var txt = $('#search-bar').val();
+    $('.project-item').each(function(){
+       if($(this).text().toUpperCase().indexOf(txt.toUpperCase()) != -1){
+           $(this).show();
+       }
+    });
+});
