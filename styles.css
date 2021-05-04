@@ -380,7 +380,7 @@ background-size: cover;
 }
 
 .search-container {
-
+	margin-bottom: 45px;
 }
 
 input#search-bar{
