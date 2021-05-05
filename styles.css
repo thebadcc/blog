@@ -755,6 +755,24 @@ a, u {
 
 .item-inner .content {
     min-height: 150px;
+    counter-increment: list;
+}
+
+.content:before {
+    font: bold 2.25rem/1 var(--font-number);
+    content: counter(list);
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin: 0 1.5rem 0.75rem 0;
+    color: var(--bg);
+    background: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    shape-outside: ellipse();
+    z-index: 1;
 }
 
 .item-inner .content h3 {
