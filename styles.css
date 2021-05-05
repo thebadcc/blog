@@ -755,10 +755,12 @@ a, u {
 
 .item-inner .content {
     min-height: 150px;
+
+}
+.project-item {
     counter-increment: list;
 }
-
-.content:before {
+.project-item:before {
     font: bold 2.25rem/1 var(--font-number);
     content: counter(list);
     width: 2rem;
