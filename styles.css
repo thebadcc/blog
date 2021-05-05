@@ -352,15 +352,6 @@ background-size: cover;
 
 /* Not sure yet */
 
-.ranking pre {
-    color: white;
-    font-size: 5px;
-    min-height: 150px;
-    float: left;
-    padding: 20px;
-}
-
-
 .container {
   list-style:none;
   margin: 0;
