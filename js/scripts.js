@@ -172,6 +172,7 @@ if (typeof window.ethereum !== 'undefined') {
   const metaMaskInstall = document.querySelector('.metaMaskInstall');
   metaMaskInstall.style = "display: none !important";
     connectAccount.style = "display: block !important";
+	$('#nav-toggle').click();
 	
 }
 
