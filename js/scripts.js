@@ -172,7 +172,7 @@ if (typeof window.ethereum !== 'undefined') {
   const metaMaskInstall = document.querySelector('.metaMaskInstall');
   metaMaskInstall.style = "display: none !important";
     connectAccount.style = "display: block !important";
-	$('#nav-toggle').click();
+
 	
 }
 
@@ -204,6 +204,7 @@ const search = document.querySelector('.search-container');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
+  $('#nav-toggle').click();
 });
 
 async function getAccount() {
