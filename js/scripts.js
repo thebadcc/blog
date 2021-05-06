@@ -204,7 +204,6 @@ const search = document.querySelector('.search-container');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
-  $('#nav-toggle').click();
   $('nav ul').toggle();
 });
 
