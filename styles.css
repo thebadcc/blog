@@ -719,6 +719,7 @@ a, u {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 3rem;
+  width: 100%;
 }
 
 .project-item {
