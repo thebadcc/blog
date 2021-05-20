@@ -950,6 +950,10 @@ a:hover, a:focus {
     width: 74.5161011526%;
 }
 
+.col--5 h3 {
+ color: white;
+}
+
 @media (max-width: 800px) {
 .col--1 {
     float: left;
