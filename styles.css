@@ -968,6 +968,13 @@ a:hover, a:focus {
 	
 }
 
+@media (max-width: 542px) {
+.image {
+    width: 60vw;
+    height: auto;
+}
+}
+
 /* Terms Tabs*/
 
 ul.tabs{
