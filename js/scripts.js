@@ -232,10 +232,10 @@ setTimeout(function(){
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 3000);
 setTimeout(function(){
- // $("#alertDiv2").toggleClass("fadedOut2");
+   $("#alertDiv2").toggleClass("fadedOut2");
 }, 10000);
 setTimeout(function(){
-   // login.style = "display: none !important";
+    login.style = "display: none !important";
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
