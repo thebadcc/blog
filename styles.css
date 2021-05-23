@@ -330,7 +330,8 @@ background-size: cover;
     height: 100%;
 	width: 100%;
 	display: none;
-
+color: #737373;
+    font-size: 5vw;
     
 }
 
