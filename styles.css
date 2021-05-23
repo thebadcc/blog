@@ -166,6 +166,13 @@ nav ul li ul li a {
     display: block;
     margin-top: 44px;
   }
+
+  .motto2 span {
+    color: white;
+    font-size: 5vh;
+    padding-top: 0px;
+}
+
 	
   nav {
     width: 100%;
@@ -343,6 +350,7 @@ background-size: cover;
 .motto2 span {
     color: white;
     font-size: 5vh;
+    padding-top: 150px;
 }
 
 .tab_container {
