@@ -330,8 +330,7 @@ background-size: cover;
     height: 100%;
 	width: 100%;
 	display: none;
-color: #737373;
-    font-size: 5vw;
+
     
 }
 
@@ -341,8 +340,8 @@ color: #737373;
 }
 
 .motto2 span {
-    color: white;
-    font-size: 35px;
+    color: #737373;
+    font-size: 5vw;
 }
 
 .tab_container {
