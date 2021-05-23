@@ -346,10 +346,17 @@ display: none;
     
 }
 
-.motto2 span {
+
+.motto2a1 {
+    color: #737373;
+    font-size: 5vh;
+}
+
+.motto2a2 {
     color: white;
     font-size: 5vh;
 }
+
 
 .tab_container {
 	clear: both;
