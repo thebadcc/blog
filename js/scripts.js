@@ -216,6 +216,15 @@ async function getAccount() {
     var fullLogIn = front.concat(middle, back)
     showAccount.innerHTML = fullLogIn;
     connectAccount.innerHTML = "";
+	    setTimeout(function(){
+  $("#alertDiv").toggleClass("fadedOut");
+}, 1000);
+setTimeout(function(){
+  $("#alertDiv2").toggleClass("fadedOut2");
+}, 2000);
+setTimeout(function(){
+  $("#alertDiv2").toggleClass("fadedOut2");
+}, 8000);
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
