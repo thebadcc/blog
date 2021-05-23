@@ -242,7 +242,7 @@ setTimeout(function(){
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
-}, 10500);
+}, 11000);
 }
 
 
