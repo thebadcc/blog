@@ -167,9 +167,7 @@ nav ul li ul li a {
     margin-top: 44px;
   }
 
-  .motto2 span {
-    color: white;
-    font-size: 5vh;
+  .motto2  {
     padding-top: 0px;
 }
 
@@ -335,22 +333,23 @@ background-size: cover;
     -webkit-transition: opacity 0.7s linear;
     transition: opacity 0.7s linear;
     opacity: 0;
-    height: 100%;
+        padding-top: 150px;
+	height: 100%;
 	width: 100%;
 	display: none;
-
+ 
     
 }
 
 .motto2.fadedOut2 {
     opacity: 1;
+	
     
 }
 
 .motto2 span {
     color: white;
     font-size: 5vh;
-    padding-top: 150px;
 }
 
 .tab_container {
