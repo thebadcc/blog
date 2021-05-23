@@ -327,6 +327,8 @@ background-size: cover;
     -webkit-transition: opacity 0.7s linear;
     transition: opacity 0.7s linear;
     opacity: 0;
+    height: 100%;
+	width: 100%;
 
     
 }
@@ -337,8 +339,8 @@ background-size: cover;
 }
 
 .motto2 span {
-color: white;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
 }
 
 .tab_container {
