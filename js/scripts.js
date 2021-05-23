@@ -225,6 +225,7 @@ setTimeout(function(){
 setTimeout(function(){
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 8000);
+setTimeout(function(){
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
@@ -232,6 +233,7 @@ setTimeout(function(){
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
+}, 10000);
 }
 
 
