@@ -934,6 +934,13 @@ a:hover, a:focus {
     font-size: 1.9em;
 }
 
+.badTokenCoin img {
+float: left;
+    width: 80;
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
 .badToken:before {
     font-size: 1.5em;
     content: "\005B";
