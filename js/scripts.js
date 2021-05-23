@@ -197,6 +197,7 @@ const nav1 = document.getElementById("nav1");
 const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
+const motto2 = document.querySelector('.motto2');
 const page = document.querySelector('.page');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
 const search = document.querySelector('.search-container');
@@ -219,10 +220,16 @@ async function getAccount() {
 	    setTimeout(function(){
   $("#alertDiv").toggleClass("fadedOut");
 }, 1000);
+
 setTimeout(function(){
       motto.style = "display: none !important";
-  $("#alertDiv2").toggleClass("fadedOut2");
+      motto2.style = "display: block !important";
 }, 2000);
+
+setTimeout(function(){
+
+  $("#alertDiv2").toggleClass("fadedOut2");
+}, 3000);
 setTimeout(function(){
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 8000);
