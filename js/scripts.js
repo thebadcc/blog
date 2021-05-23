@@ -233,7 +233,7 @@ setTimeout(function(){
 }, 3000);
 setTimeout(function(){
    $("#alertDiv2").toggleClass("fadedOut2");
-}, 11000);
+}, 12000);
 setTimeout(function(){
     login.style = "display: none !important";
     nav1.style = "display: block !important";
@@ -242,7 +242,7 @@ setTimeout(function(){
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
-}, 12000);
+}, 13000);
 }
 
 
