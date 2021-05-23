@@ -232,17 +232,17 @@ setTimeout(function(){
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 3000);
 setTimeout(function(){
- //  $("#alertDiv2").toggleClass("fadedOut2");
-}, 10000);
+   $("#alertDiv2").toggleClass("fadedOut2");
+}, 11000);
 setTimeout(function(){
- //   login.style = "display: none !important";
+    login.style = "display: none !important";
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
-}, 11000);
+}, 12000);
 }
 
 
