@@ -198,6 +198,7 @@ const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
 const motto = document.querySelector('.motto');
 const motto2 = document.querySelector('.motto2');
+const login = document.querySelector('.login');
 const page = document.querySelector('.page');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
 const search = document.querySelector('.search-container');
@@ -234,6 +235,7 @@ setTimeout(function(){
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 8000);
 setTimeout(function(){
+    login.style = "display: none !important";
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
