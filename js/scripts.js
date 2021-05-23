@@ -220,6 +220,7 @@ async function getAccount() {
   $("#alertDiv").toggleClass("fadedOut");
 }, 1000);
 setTimeout(function(){
+      motto.style = "display: none !important";
   $("#alertDiv2").toggleClass("fadedOut2");
 }, 2000);
 setTimeout(function(){
@@ -229,7 +230,6 @@ setTimeout(function(){
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
-    motto.style = "display: none !important";
     page.style = "display: flex !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
