@@ -336,6 +336,11 @@ background-size: cover;
     
 }
 
+.motto2 span {
+color: white;
+    font-size: 25px;
+}
+
 .tab_container {
 	clear: both;
 	width: 100%;
