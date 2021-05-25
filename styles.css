@@ -240,8 +240,8 @@ nav ul li ul li a {
 border-radius: 5px;
     border: solid 1px gray;
     margin-top: 21;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     height: 30px;
     font-family: system-ui;
     font-size: 15;
