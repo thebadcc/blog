@@ -189,10 +189,10 @@ if (typeof window.ethereum !== 'undefined') {
 	})
 
 })
+
 const ethereumButton = document.querySelector('.metaMask');
 const showAccount = document.querySelector('.showAccount');
 const connectAccount = document.querySelector('.connectAccount');
-
 const nav1 = document.getElementById("nav1");
 const nav3 = document.getElementById("nav3");
 const nav4 = document.getElementById("nav4");
@@ -203,6 +203,7 @@ const page = document.querySelector('.page');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
 const search = document.querySelector('.search-container');
 
+const rngQuote = Math.random();
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
@@ -221,6 +222,8 @@ async function getAccount() {
 	    setTimeout(function(){
   $("#alertDiv").toggleClass("fadedOut");
 }, 1000);
+
+ if (rngQuote < 0.50) {
 
 setTimeout(function(){
       motto.style = "display: none !important";
@@ -243,6 +246,20 @@ setTimeout(function(){
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 13000);
+    
+  } else {
+  setTimeout(function(){
+    login.style = "display: none !important";
+    nav1.style = "display: block !important";
+    nav3.style = "display: block !important";
+    nav4.style = "display: block !important";
+    page.style = "display: flex !important";
+    metaMaskRequired.style = "display: none !important";
+    search.style = "display: block !important";
+}, 3000);
+}
+	
+	
 }
 
 
