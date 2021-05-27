@@ -959,7 +959,21 @@ float: left;
 	padding: 0;
 }
 
+.inputForm {
+    width: 100%;
+    background: #737373;
+    font-size: 18;
+    color: white;
+}
 
+.dataFunction {
+background: black;
+    border: none;
+    color: white;
+    font-size: 20;
+    font-family: system-ui;
+    padding-bottom: 10px;
+}
 
 .badTokenContainer {
   max-width: 1200px;
