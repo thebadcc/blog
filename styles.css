@@ -960,12 +960,13 @@ float: left;
 }
 
 .inputForm {
-	margin-bottom: 15px;
+margin-bottom: 15px;
     width: 100%;
-    background: #737373;
+    background: #dcdcdc;
     font-size: 18;
-    color: white;
-   border-radius: 5px;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .executeTx {
