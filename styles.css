@@ -967,6 +967,15 @@ float: left;
     color: white;
 }
 
+.executeTx {
+    background: white;
+    border: solid 1px white;
+    color: black;
+    font-size: 14px;
+    float: right;
+	
+}
+
 .dataFunction {
 background: black;
     border: none;
