@@ -970,12 +970,13 @@ margin-bottom: 15px;
 }
 
 .executeTx {
-    background: white;
-    border: solid 1px white;
-    color: black;
+  background: black;
+    border: solid 1px #737373;
+    color: white;
     font-size: 14px;
     float: right;
-	
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .dataFunction {
