@@ -966,11 +966,6 @@ float: left;
   margin: 0 auto;
 }
 
-.badCode {
-border: solid 1px white;
-    border-radius: 10px;
-}
-
 .badTokenResources {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
