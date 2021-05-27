@@ -202,7 +202,7 @@ async function getAccount() {
   $("#alertDiv").toggleClass("fadedOut");
 }, 1000);
 
- if (rngQuote < 0.50) {
+ if (rngQuote < 0.05) {
 
 setTimeout(function(){
       motto.style = "display: none !important";
