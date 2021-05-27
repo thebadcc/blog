@@ -980,12 +980,14 @@ margin-bottom: 15px;
 }
 
 .dataFunction {
-background: black;
+width: 100%;
+    background: black;
     border: none;
     color: white;
     font-size: 20;
     font-family: system-ui;
     padding-bottom: 10px;
+    outline: none;
 }
 
 .functionWrapper {
