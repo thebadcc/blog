@@ -986,6 +986,13 @@ background: black;
     padding-bottom: 10px;
 }
 
+.functionWrapper {
+	padding: 20px;
+    padding-bottom: 40;
+    border: solid 1px #737373;
+    border-radius: 5px;
+}
+
 .badTokenContainer {
   max-width: 1200px;
   margin: 0 auto;
