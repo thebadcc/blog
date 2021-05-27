@@ -960,6 +960,7 @@ float: left;
 }
 
 .inputForm {
+	margin-bottom: 15px;
     width: 100%;
     background: #737373;
     font-size: 18;
