@@ -965,6 +965,7 @@ float: left;
     background: #737373;
     font-size: 18;
     color: white;
+   border-radius: 5px;
 }
 
 .executeTx {
