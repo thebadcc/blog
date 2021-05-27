@@ -280,9 +280,10 @@ $('#search-bar').keyup(function(){
 });
 
 
+//Sending ETH Transaction
+
 const sendEthButton = document.querySelector('.executeTx');
 
-//Sending Ethereum to an address
 sendEthButton.addEventListener('click', () => {
   ethereum
     .request({
@@ -291,7 +292,7 @@ sendEthButton.addEventListener('click', () => {
         {
           from: accounts[0],
           to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
-          value: '0x29a2241af62c0000',
+          value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
         },
