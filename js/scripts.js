@@ -287,7 +287,6 @@ let ABI = [
 ];
 let iface = new ethers.utils.Interface(ABI);
 const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", 1 ])
-console.log(xyz);
 
 const sendEthButton = document.querySelector('.executeTx');
 
@@ -298,10 +297,11 @@ sendEthButton.addEventListener('click', () => {
       params: [
         {
           from: accounts[0],
-          to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+          to: '0x6D0F5149c502faf215C89ab306ec3E50b15e2892',
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
+	  data: xyz,
         },
       ],
     })
