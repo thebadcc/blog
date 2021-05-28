@@ -292,7 +292,6 @@ let ABI = [
 let iface = new ethers.utils.Interface(ABI);
 
 const xyz = iface.encodeFunctionData("balanceOf", [ "0xefb94ac00f1cee8a89d5c3f49faa799da6f03024" ]);
-const zyx = iface..decodeFunctionResult(txHash);
 
 const sendEthButton = document.querySelector('.executeTx');
 
