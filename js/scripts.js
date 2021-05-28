@@ -281,6 +281,7 @@ $('#search-bar').keyup(function(){
 
 
 //Sending ETH Transaction
+document.getElementById('fname').disabled = true;
 
 let ABI = [
     "function transfer(address to, uint amount)"
