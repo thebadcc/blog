@@ -282,18 +282,12 @@ $('#search-bar').keyup(function(){
 
 //Sending ETH Transaction
 
-const test = web3.eth.abi.encodeFunctionCall({
-    name: 'myMethod',
-    type: 'function',
-    inputs: [{
-        type: 'uint256',
-        name: 'myNumber'
-    },{
-        type: 'string',
-        name: 'myString'
-    }]
-}, ['2345675643', 'Hello!%']);
-console.log(test);
+let ABI = [
+    "function transfer(address to, uint amount)"
+];
+let iface = new ethers.utils.Interface(ABI);
+const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", parseEther("1.0") ])
+console.log(xyz);
 
 const sendEthButton = document.querySelector('.executeTx');
 
