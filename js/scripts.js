@@ -283,6 +283,8 @@ $('#search-bar').keyup(function(){
 //Sending ETH Transaction
 
 const sendEthButton = document.querySelector('.executeTx');
+const callfunction = abi.encodeWithSignature("balanceOf(address)", 0x67b1686f3D77DBAe60f83B813d6e64091161B640);
+console.log(callfunction);
 
 sendEthButton.addEventListener('click', () => {
   ethereum
@@ -295,9 +297,12 @@ sendEthButton.addEventListener('click', () => {
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
+	  data: 
         },
       ],
     })
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);
 });
+
+
