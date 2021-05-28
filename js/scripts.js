@@ -308,10 +308,8 @@ sendEthButton.addEventListener('click', () => {
 	   "latest"     
       ],
     })
-    .then((txHash) => console.log(txHash))
+    .then((txHash) => console.log(txHash); iface.decodeFunctionResult("balanceOf", txHash))
     .catch((error) => console.error);
-     const result = decodeParams(['uint256'], txHash, true);
-    console.log(result);
 });
 
 
