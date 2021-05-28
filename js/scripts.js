@@ -288,7 +288,7 @@ const provider = ethers.getDefaultProvider();
 const erc20 = new ethers.Contract(address, tester, provider);
 
 const symbol = erc20.symbol();
-console.log(symbol);
+console.log(symbol.Promise);
 
 const inputOne = document.getElementById('inputOne');
 const inputTwo = document.getElementById('inputTwo');
