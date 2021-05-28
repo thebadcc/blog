@@ -310,8 +310,8 @@ sendEthButton.addEventListener('click', () => {
     })
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);
-     const result = await decodeParams(['uint256'], txHash, true)
-    console.log(result)
+     const result = decodeParams(['uint256'], txHash, true);
+    console.log(result);
 });
 
 
