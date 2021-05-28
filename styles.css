@@ -988,9 +988,12 @@ width: 100%;
     font-family: system-ui;
     padding-bottom: 10px;
     outline: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
 }
 
-select::-ms-expand {
+.dataFunction::-ms-expand {
     display: none;
 }
 
