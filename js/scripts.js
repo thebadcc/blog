@@ -306,34 +306,13 @@ sendEthButton.addEventListener('click', () => {
 
   } else if (sb.selectedIndex = 1) {
 	const balanceOf = erc20.balanceOf(inputOne);
+	  console.log(balanceOf);
 	const printBalanceOf = async () => {
 		const a = await balanceOf;
 		console.log(a);
 	};
 	printBalanceOf();  
   }
-
-ethereum
-    .request({
-      method: 'eth_call',
-      params: [
-        {
-          from: accounts[0],
-          to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
-	  data: xyz,
-        },
-	   "latest"     
-      ],
-    })
-    .then((txHash) => {
-	  
-	  console.log(txHash);
-	  const response = iface.decodeFunctionResult("balanceOf", txHash);
-	console.log(response);
-  }
-	  )
-
-    .catch((error) => console.error);
 	
 
 });
