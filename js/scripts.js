@@ -309,12 +309,8 @@ const sendEthButton = document.querySelector('.executeTx');
 
 sendEthButton.addEventListener('click', () => {
   const sb = document.querySelector('#dataFunction')
+  console.log(sb.selectedIndex);
 
-  if (sb.selectedIndex = 1) {
-  // block of code to be executed if the condition is true
-} else {
-  
-}
 ethereum
     .request({
       method: 'eth_call',
