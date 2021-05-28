@@ -988,6 +988,9 @@ width: 100%;
     font-family: system-ui;
     padding-bottom: 10px;
     outline: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .functionWrapper {
