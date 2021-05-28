@@ -311,9 +311,9 @@ const sendEthButton = document.querySelector('.executeTx');
 sendEthButton.addEventListener('click', () => {
   const sb = document.querySelector('#dataFunction');
   console.log(sb.selectedIndex);
-  if (sb.selectedIndex = 0) {
+  if (sb.selectedIndex == 0) {
 
-  } else if (sb.selectedIndex = 0) {
+  } else if (sb.selectedIndex == 1) {
 	 
   } 
 });
