@@ -292,7 +292,7 @@ const erc20 = new ethers.Contract(contractAddress, contractABI, provider);
 
 const balanceOf = erc20.symbol();
 const printBalanceOf = async () => {
-  const a = await symbol;
+  const a = await balanceOf;
   console.log(a);
 };
 printBalanceOf();
