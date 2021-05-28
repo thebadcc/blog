@@ -997,6 +997,15 @@ width: 100%;
     display: none;
 }
 
+.responseWrapper {
+	margin: 0;
+}
+
+.response {
+ 	color: white;
+	margin-left:2px;	
+}
+
 .functionWrapper {
 }
 
