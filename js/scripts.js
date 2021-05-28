@@ -288,7 +288,12 @@ const provider = ethers.getDefaultProvider();
 const erc20 = new ethers.Contract(address, tester, provider);
 
 const symbol = erc20.symbol();
-console.log(symbol);
+const printAddress = async () => {
+  const a = await symbol;
+  console.log(a);
+};
+
+printAddress();
 
 const inputOne = document.getElementById('inputOne');
 const inputTwo = document.getElementById('inputTwo');
