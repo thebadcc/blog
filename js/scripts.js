@@ -304,8 +304,8 @@ sendEthButton.addEventListener('click', () => {
           from: accounts[0],
           to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
 	  data: xyz,
-    "latest"
         },
+	   "latest"     
       ],
     })
     .then((txHash) => console.log(txHash))
