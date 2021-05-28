@@ -301,7 +301,7 @@ const sendEthButton = document.querySelector('.executeTx');
 
 sendEthButton.addEventListener('click', () => {
   const sb = document.querySelector('#dataFunction')
-  
+  console.log(sb.selectedIndex);
   if (sb.selectedIndex = 0) {
 
   } else if (sb.selectedIndex = 1) {
@@ -313,9 +313,17 @@ sendEthButton.addEventListener('click', () => {
 		console.log(a);
 	};
 	printBalanceOf();  
-  }
+  } else if (sb.selectedIndex = 2) {
+	  console.log(inputOne.value);
+	const balanceOf = erc20.balanceOf(inputOne.value);
+	  console.log(balanceOf);
+	const printBalanceOf = async () => {
+		const a = await balanceOf;
+		console.log(a);
+	};
+	printBalanceOf();  
 	
-
+  }
 });
 
 
