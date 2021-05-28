@@ -290,6 +290,15 @@ const contractAddress = "0x0f5d2fb29fb7d3cfee444a200298f468908cc942";
 const provider = ethers.getDefaultProvider();
 const erc20 = new ethers.Contract(contractAddress, contractABI, provider);
 
+ console.log(inputOne.value);
+	const balanceOf = erc20.balanceOf(inputOne.value);
+	  console.log(balanceOf);
+	const printBalanceOf = async () => {
+		const a = await balanceOf;
+		console.log(a);
+	};
+	printBalanceOf();  
+
 let ABI = [
     "function balanceOf(address _owner)"
 ];
@@ -300,30 +309,13 @@ const xyz = iface.encodeFunctionData("balanceOf", [ "0xefb94ac00f1cee8a89d5c3f49
 const sendEthButton = document.querySelector('.executeTx');
 
 sendEthButton.addEventListener('click', () => {
-  const sb = document.querySelector('#dataFunction')
+  const sb = document.querySelector('#dataFunction');
   console.log(sb.selectedIndex);
   if (sb.selectedIndex = 0) {
 
-  } else if (sb.selectedIndex = 1) {
-	  console.log(inputOne.value);
-	const balanceOf = erc20.balanceOf(inputOne.value);
-	  console.log(balanceOf);
-	const printBalanceOf = async () => {
-		const a = await balanceOf;
-		console.log(a);
-	};
-	printBalanceOf();  
-  } else if (sb.selectedIndex = 2) {
-	  console.log(inputOne.value);
-	const balanceOf = erc20.balanceOf(inputOne.value);
-	  console.log(balanceOf);
-	const printBalanceOf = async () => {
-		const a = await balanceOf;
-		console.log(a);
-	};
-	printBalanceOf();  
-	
-  }
+  } else if (sb.selectedIndex = 0) {
+	 
+  } 
 });
 
 
