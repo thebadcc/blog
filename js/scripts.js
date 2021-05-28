@@ -281,15 +281,16 @@ $('#search-bar').keyup(function(){
 
 
 //Sending ETH Transaction
-const document.getElementById('inputOne');
-const document.getElementById('inputTwo');
+const inputOne = document.getElementById('inputOne');
+const inputTwo = document.getElementById('inputTwo');
 
-inputOne.disabled = true;
+inputTwo.disabled = true;
 
 let ABI = [
     "function transfer(address to, uint amount)"
 ];
 let iface = new ethers.utils.Interface(ABI);
+
 const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", 1 ])
 
 const sendEthButton = document.querySelector('.executeTx');
