@@ -309,7 +309,9 @@ sendEthButton.addEventListener('click', () => {
 	 console.log(balanceOf);
 	 const printBalanceOf = async () => {
 		const a = await balanceOf;
-		console.log(a.toNumber());
+		
+		 const b = ethers.utils.formatUnits(a, 18)
+		 console.log(b);
 	};
 	printBalanceOf();  
   } 
