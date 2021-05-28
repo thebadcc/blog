@@ -303,10 +303,8 @@ sendEthButton.addEventListener('click', () => {
         {
           from: accounts[0],
           to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
-          value: '0x00',
-          gasPrice: '0x09184e72a000',
-          gas: '0x2710',
 	  data: xyz,
+    "latest"
         },
       ],
     })
