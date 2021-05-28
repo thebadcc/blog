@@ -282,9 +282,20 @@ $('#search-bar').keyup(function(){
 
 //Sending ETH Transaction
 
+const test = web3.eth.abi.encodeFunctionCall({
+    name: 'myMethod',
+    type: 'function',
+    inputs: [{
+        type: 'uint256',
+        name: 'myNumber'
+    },{
+        type: 'string',
+        name: 'myString'
+    }]
+}, ['2345675643', 'Hello!%']);
+console.log(test);
+
 const sendEthButton = document.querySelector('.executeTx');
-const callfunction = abi.encodeWithSignature("balanceOf(address)", 0x67b1686f3D77DBAe60f83B813d6e64091161B640);
-console.log(callfunction);
 
 sendEthButton.addEventListener('click', () => {
   ethereum
