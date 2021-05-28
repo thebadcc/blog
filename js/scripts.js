@@ -305,6 +305,7 @@ sendEthButton.addEventListener('click', () => {
   if (sb.selectedIndex = 0) {
 
   } else if (sb.selectedIndex = 1) {
+	  console.log(inputOne);
 	const balanceOf = erc20.balanceOf(inputOne);
 	  console.log(balanceOf);
 	const printBalanceOf = async () => {
