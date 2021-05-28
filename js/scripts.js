@@ -297,7 +297,6 @@ sendEthButton.addEventListener('click', () => {
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
-	  data: 
         },
       ],
     })
