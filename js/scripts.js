@@ -283,26 +283,26 @@ $('#search-bar').keyup(function(){
 //Sending ETH Transaction
 const inputOne = document.getElementById('inputOne');
 const inputTwo = document.getElementById('inputTwo');
-inputOne.disabled = true;
+
 inputTwo.disabled = true;
 
 let ABI = [
-    "function transfer(address to, uint amount)"
+    "function balanceOf(address _owner)"
 ];
 let iface = new ethers.utils.Interface(ABI);
 
-const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", 1 ])
+const xyz = iface.encodeFunctionData("balanceOf", [ inputOne.value ])
 
 const sendEthButton = document.querySelector('.executeTx');
 
 sendEthButton.addEventListener('click', () => {
   ethereum
     .request({
-      method: 'eth_sendTransaction',
+      method: 'eth_call',
       params: [
         {
           from: accounts[0],
-          to: '0x6D0F5149c502faf215C89ab306ec3E50b15e2892',
+          to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
@@ -312,6 +312,7 @@ sendEthButton.addEventListener('click', () => {
     })
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);
+	console.log(return);
 });
 
 
