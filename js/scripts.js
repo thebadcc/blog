@@ -298,7 +298,7 @@ const sendEthButton = document.querySelector('.executeTx');
 sendEthButton.addEventListener('click', () => {
   ethereum
     .request({
-      method: 'eth_call',
+      method: 'eth_sendTransaction',
       params: [
         {
           from: accounts[0],
