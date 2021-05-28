@@ -283,7 +283,7 @@ $('#search-bar').keyup(function(){
 //Sending ETH Transaction
 const inputOne = document.getElementById('inputOne');
 const inputTwo = document.getElementById('inputTwo');
-
+inputOne.disabled = true;
 inputTwo.disabled = true;
 
 let ABI = [
