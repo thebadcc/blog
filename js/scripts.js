@@ -286,7 +286,7 @@ let ABI = [
     "function transfer(address to, uint amount)"
 ];
 let iface = new ethers.utils.Interface(ABI);
-const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", parseEther("1.0") ])
+const xyz = iface.encodeFunctionData("transfer", [ "0x1234567890123456789012345678901234567890", 1 ])
 console.log(xyz);
 
 const sendEthButton = document.querySelector('.executeTx');
