@@ -990,6 +990,10 @@ width: 100%;
     outline: none;
 }
 
+select::-ms-expand {
+    display: none;
+}
+
 .functionWrapper {
 }
 
