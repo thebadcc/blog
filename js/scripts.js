@@ -312,7 +312,6 @@ sendEthButton.addEventListener('click', () => {
     })
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);
-	console.log(return);
 });
 
 
