@@ -285,8 +285,10 @@ const contractAddress = "0x0f5d2fb29fb7d3cfee444a200298f468908cc942";
 const provider = ethers.getDefaultProvider();
 const erc20 = new ethers.Contract(contractAddress, contractABI, provider);
 
-let iface = new ethers.utils.Interface(contractABI);
-
+const abi = [
+    "function transfer(address to, uint value)"
+];
+const iface = new Interface(abi);
 
 const sendEthButton = document.querySelector('.executeTx');
 
