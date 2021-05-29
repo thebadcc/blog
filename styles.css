@@ -1006,6 +1006,10 @@ width: 100%;
 	margin-left:2px;	
 }
 
+#responseCall {
+	color: white;
+}
+
 .functionWrapper {
 }
 
