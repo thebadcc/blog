@@ -285,12 +285,8 @@ const contractAddress = "0x0f5d2fb29fb7d3cfee444a200298f468908cc942";
 const provider = ethers.getDefaultProvider();
 const erc20 = new ethers.Contract(contractAddress, contractABI, provider);
 
-let ABI = [
-    "function balanceOf(address _owner)"
-];
-let iface = new ethers.utils.Interface(ABI);
+let iface = new ethers.utils.Interface(contractABI);
 
-const xyz = iface.encodeFunctionData("balanceOf", [ "0xefb94ac00f1cee8a89d5c3f49faa799da6f03024" ]);
 
 const sendEthButton = document.querySelector('.executeTx');
 
@@ -310,7 +306,26 @@ sendEthButton.addEventListener('click', () => {
 		 console.log(b);
 	};
 	printBalanceOf();  
-  } 
+  } else if (sb.selectedIndex == 2) {
+	const data = iface.encodeFunctionData("mineToken");
+	  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+          value: '0x00',
+          gasPrice: '0x09184e72a000',
+          gas: '0x2710',
+	  data: data,  
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+	  
+  }
 });
 
 
