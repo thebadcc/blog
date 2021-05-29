@@ -327,7 +327,7 @@ sendEthButton.addEventListener('click', () => {
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);  
   } else if (sb.selectedIndex == 3) {
-	  const tokenNumber = ethers.utils.formatUnits(inputTwo.value, "ethers");
+	  const tokenNumber = ethers.utils.parseUnits(inputTwo.value, 18);
 	  console.log(tokenNumber);
 	const data2 = iface.encodeFunctionData("transfer", [inputOne.value, tokenNumber]);
 	  console.log(data2);
