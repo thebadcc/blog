@@ -314,7 +314,7 @@ sendEthButton.addEventListener('click', () => {
       params: [
         {
           from: accounts[0],
-          to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+          to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
@@ -326,13 +326,14 @@ sendEthButton.addEventListener('click', () => {
     .catch((error) => console.error);  
   } else if (sb.selectedIndex == 3) {
 	const data2 = iface.encodeFunctionData("transfer", (inputOne, inputTwo));
+	  console.log(data2);
 	ethereum
     .request({
       method: 'eth_sendTransaction',
       params: [
         {
           from: accounts[0],
-          to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+          to: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
           value: '0x00',
           gasPrice: '0x09184e72a000',
           gas: '0x2710',
