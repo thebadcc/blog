@@ -288,7 +288,7 @@ const erc20 = new ethers.Contract(contractAddress, contractABI, provider);
 const abi = [
     "function transfer(address to, uint value)"
 ];
-const iface = new Interface(abi);
+const iface = new ethers.Interface(abi);
 
 const sendEthButton = document.querySelector('.executeTx');
 
