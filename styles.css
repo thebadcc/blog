@@ -927,8 +927,8 @@ a:hover, a:focus {
 
 .badProjects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-gap: 5px;
   justify-content: center;
 }
 
