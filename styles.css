@@ -425,7 +425,7 @@ display: none;
 }
 
 .search-container {
-	margin-bottom: 45px;
+
 }
 
 input#search-bar{
@@ -438,23 +438,8 @@ input#search-bar{
   border: 1px solid #D0CFCE;
   outline: none;
   color: white;
-  &:focus{
-    border: 1px solid #008ABF;
-    transition: 0.35s ease;
-    color: #008ABF;
-    &::-webkit-input-placeholder{
-      transition: opacity 0.45s ease; 
-  	  opacity: 0;
-     }
-    &::-moz-placeholder {
-      transition: opacity 0.45s ease; 
-  	  opacity: 0;
-     }
-    &:-ms-placeholder {
-     transition: opacity 0.45s ease; 
-  	 opacity: 0;
-     }    
-   }
+  border: none;
+    border-bottom: solid 2px white;
  }
 
 .search-icon{
