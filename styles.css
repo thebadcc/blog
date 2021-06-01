@@ -925,6 +925,26 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.badProjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.badCards {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  height: 310px;
+}
+
+.badAvatar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .flip-card {
   background-color: transparent;
   width: 200px;
