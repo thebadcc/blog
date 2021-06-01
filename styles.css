@@ -927,7 +927,7 @@ a:hover, a:focus {
 
 .badProjects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 2fr));
   grid-gap: 5px;
   justify-content: center;
 }
@@ -978,7 +978,7 @@ a:hover, a:focus {
   background-color: black;
   color: white;
   padding: 20px;
-    border: solid 1px #737373;
+    border: solid 2px #737373;
     border-radius: 20px;
 }
 
@@ -987,7 +987,7 @@ a:hover, a:focus {
   color: white;
   transform: rotateY(180deg);
   padding: 20px;
-    border: solid 1px #737373;
+    border: solid 2px #737373;
     border-radius: 20px;
     margin-left: -45px
 
