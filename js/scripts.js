@@ -265,9 +265,9 @@ $(document).ready(function() {
 
 
 $('#search-bar').keyup(function(){
-    $('.project-item').hide();
+    $('.badCards').hide();
     var txt = $('#search-bar').val();
-    $('.project-item').each(function(){
+    $('.badCards').each(function(){
        if($(this).text().toUpperCase().indexOf(txt.toUpperCase()) != -1){
            $(this).show();
        }
@@ -289,7 +289,6 @@ const abi = [
     "function transfer(address to, uint value)"
 ];
 const iface = new ethers.utils.Interface(abi)
-
 const sendEthButton = document.querySelector('.executeTx');
 
 sendEthButton.addEventListener('click', () => {
