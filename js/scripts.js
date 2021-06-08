@@ -354,21 +354,21 @@ function changeFunc() {
 var eID = document.getElementById("dataFunction");
 var funcVal = eID.options[eID.selectedIndex].value;
 if (funcVal == 1) {
-document.getElementById('inputOne').style.display = "block";
+document.getElementById('inputOne').style.display = "initial";
 document.getElementById('inputOne').placeholder='{null}';
-document.getElementById('inputTwo').style.display = "block";
+document.getElementById('inputTwo').style.display = "initial";
 document.getElementById('inputTwo').placeholder='{null}';	
 } else if (funcVal == 2) {
-document.getElementById('inputOne').style.display = "block";
+document.getElementById('inputOne').style.display = "initial";
 document.getElementById('inputOne').placeholder='Enter Address';
 document.getElementById('inputTwo').style.display = "none";
 } else if (funcVal == 3) {
 document.getElementById('inputOne').style.display = "none";
 document.getElementById('inputTwo').style.display = "none";
 } else if (funcVal == 4) {
-document.getElementById('inputOne').style.display = "block";
+document.getElementById('inputOne').style.display = "initial";
 document.getElementById('inputOne').placeholder='Enter Address';
-document.getElementById('inputTwo').style.display = "block";
+document.getElementById('inputTwo').style.display = "initial";
 document.getElementById('inputTwo').placeholder='Enter Amount';
 }
 }
