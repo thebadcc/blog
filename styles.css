@@ -1041,6 +1041,7 @@ margin-bottom: 15px;
     color: black;
     border-radius: 5px;
     padding: 5px;
+	outline: auto;
 }
 
 .executeTx {
