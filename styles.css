@@ -453,6 +453,8 @@ input#search-bar{
 
 
 
+
+
 /* Footer */ 
 
 
@@ -1087,6 +1089,12 @@ width: 100%;
 }
 
 .functionWrapper {
+}
+
+.badCode {
+padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .badTokenContainer {
