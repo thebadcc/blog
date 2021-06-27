@@ -180,6 +180,7 @@ const motto2 = document.querySelector('.motto2');
 const login = document.querySelector('.login');
 const page = document.querySelector('.page');
 const row = document.querySelector('.row');
+const legalLinks = document.querySelector('.legal-links');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
 const search = document.querySelector('.search-container');
 
@@ -224,6 +225,7 @@ setTimeout(function(){
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
     row.style = "display: none !important";
+    legalLinks.style = "display: inline-block !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 13000);
@@ -236,6 +238,7 @@ setTimeout(function(){
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
     row.style = "display: none !important";
+    legalLinks.style = "display: inline-block !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 3000);
