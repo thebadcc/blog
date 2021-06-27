@@ -225,7 +225,7 @@ setTimeout(function(){
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
     row.style = "display: none !important";
-    legalLinks.style = "display: inline-block !important";
+    legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 13000);
@@ -238,7 +238,7 @@ setTimeout(function(){
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
     row.style = "display: none !important";
-    legalLinks.style = "display: inline-block !important";
+    legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 3000);
