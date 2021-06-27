@@ -179,6 +179,7 @@ const motto = document.querySelector('.motto');
 const motto2 = document.querySelector('.motto2');
 const login = document.querySelector('.login');
 const page = document.querySelector('.page');
+const row = document.querySelector('.row');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
 const search = document.querySelector('.search-container');
 
@@ -222,6 +223,7 @@ setTimeout(function(){
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
+    row.style = "display: none !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 13000);
@@ -233,6 +235,7 @@ setTimeout(function(){
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
     page.style = "display: flex !important";
+    row.style = "display: none !important";
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 3000);
