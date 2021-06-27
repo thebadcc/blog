@@ -463,6 +463,7 @@ input#search-bar{
 	text-align: right;
 	list-style: none;
 	margin: 0;
+	padding:0;
 }
 
 .legal-links li {
