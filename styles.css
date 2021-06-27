@@ -451,7 +451,7 @@ input#search-bar{
 }
 
 
-.columnsContainer { position: relative; margin: .5em; }
+.columnsContainer { position: relative; }
 
 .leftColumn { margin-bottom: .5em; }
 
