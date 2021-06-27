@@ -462,10 +462,12 @@ input#search-bar{
 	display: none;
 	text-align: right;
 	list-style: none;
+	margin: 0;
 }
 
 .legal-links li {
 	display: inline-block;
+	margin-left: 20px;
 	
 }
 .text-justify {
