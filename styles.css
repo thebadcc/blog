@@ -458,7 +458,16 @@ input#search-bar{
 
 /* Footer */ 
 
+.legal-links {
+	display: none;
+	text-align: right;
+	list-style: none;
+}
 
+.legal-links li {
+	display: inline-block;
+	
+}
 .text-justify {
 	margin-right: 30px;
 }
