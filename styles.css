@@ -453,7 +453,7 @@ input#search-bar{
 .right img {
 	width:100%;
 }
-
+.rightColumn {color: white;} 
 .columnsContainer { position: relative; }
 
 .leftColumn { margin-bottom: .5em; }
@@ -463,7 +463,7 @@ input#search-bar{
 @media screen and (min-width: 47.5em ) {
   .leftColumn { margin-right: 19.5em; }
 
-	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; color: white; }   
+	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
 }
 
 
