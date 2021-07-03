@@ -466,7 +466,9 @@ input#search-bar{
 	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
 }
 
-
+.controlKeys {
+	color: white;
+}
 
 /* Footer */ 
 
