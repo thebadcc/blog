@@ -471,7 +471,7 @@ input#search-bar{
 }
 
 .controlKeys td {
-	padding: 10px;
+	padding-left: 10px;
 }
 
 /* Footer */ 
