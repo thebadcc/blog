@@ -470,6 +470,10 @@ input#search-bar{
 	color: white;
 }
 
+.controlKeys td {
+	padding: 10px;
+}
+
 /* Footer */ 
 
 .legal-links {
