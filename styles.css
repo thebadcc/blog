@@ -1160,12 +1160,13 @@ padding: 10px;
 .col--1 {
     float: left;
     display: block;
-    width: 23.5483034577%;
+    width: 25%;
 }
 .col--5 {
     float: left;
     display: block;
-    width: 74.5161011526%;
+    width: 75%;
+    margin-bottom: 50px;
 }
 
 .col--5 h3 {
