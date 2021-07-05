@@ -474,6 +474,16 @@ input#search-bar{
 	padding-left: 10px;
 }
 
+.enterWorld {
+    width: 100%;
+    background: #dcdcdc;
+    font-size: 18;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: auto;
+}
+
 /* Footer */ 
 
 .legal-links {
