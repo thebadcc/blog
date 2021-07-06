@@ -200,9 +200,7 @@ async function getAccount() {
     var fullLogIn = front.concat(middle, back)
     showAccount.innerHTML = fullLogIn;
     connectAccount.innerHTML = "";
-	    setTimeout(function(){
-  $("#alertDiv").toggleClass("fadedOut");
-}, 1000);
+
 
   setTimeout(function(){
     $('.login').fadeOut();
@@ -215,7 +213,7 @@ async function getAccount() {
     legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
 
-}, 3000);
+}, 1000);
 
 	
 	
