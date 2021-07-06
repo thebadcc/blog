@@ -205,15 +205,16 @@ async function getAccount() {
 }, 1000);
 
   setTimeout(function(){
-    login.style = "display: none !important";
+    $('.login').fadeOut();
+    page.style = "display: block !important";
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
-    page.style = "display: block !important";
+
     row.style = "display: none !important";
     legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
-    search.style = "display: block !important";
+
 }, 3000);
 
 	
