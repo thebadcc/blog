@@ -206,7 +206,7 @@ async function getAccount() {
 
   setTimeout(function(){
     $('.login').fadeOut();
-    page.style = "display: block !important";
+    $('.page').fadeIn();
     nav1.style = "display: block !important";
     nav3.style = "display: block !important";
     nav4.style = "display: block !important";
