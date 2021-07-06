@@ -204,33 +204,6 @@ async function getAccount() {
   $("#alertDiv").toggleClass("fadedOut");
 }, 1000);
 
- if (rngQuote < 0.05) {
-
-setTimeout(function(){
-      motto.style = "display: none !important";
-      motto2.style = "display: block !important";
-}, 2000);
-
-setTimeout(function(){
-
-  $("#alertDiv2").toggleClass("fadedOut2");
-}, 3000);
-setTimeout(function(){
-   $("#alertDiv2").toggleClass("fadedOut2");
-}, 12000);
-setTimeout(function(){
-    login.style = "display: none !important";
-    nav1.style = "display: block !important";
-    nav3.style = "display: block !important";
-    nav4.style = "display: block !important";
-    page.style = "display: block !important";
-    row.style = "display: none !important";
-    legalLinks.style = "display: block !important";
-    metaMaskRequired.style = "display: none !important";
-    search.style = "display: block !important";
-}, 13000);
-    
-  } else {
   setTimeout(function(){
     login.style = "display: none !important";
     nav1.style = "display: block !important";
@@ -242,7 +215,7 @@ setTimeout(function(){
     metaMaskRequired.style = "display: none !important";
     search.style = "display: block !important";
 }, 3000);
-}
+
 	
 	
 }
