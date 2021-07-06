@@ -182,9 +182,6 @@ const page = document.querySelector('.page');
 const row = document.querySelector('.row');
 const legalLinks = document.querySelector('.legal-links');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
-const search = document.querySelector('.search-container');
-
-const rngQuote = Math.random();
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
@@ -203,7 +200,7 @@ async function getAccount() {
     $('.login').fadeOut();
     $('.page').fadeIn();
 	$('#nav1').fadeIn();
-	$('#nav2').fadeIn();
+	$('#nav3').fadeIn();
 	$('#nav4').fadeIn();
     row.style = "display: none !important";
     legalLinks.style = "display: block !important";
