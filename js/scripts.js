@@ -182,6 +182,7 @@ const page = document.querySelector('.page');
 const row = document.querySelector('.row');
 const legalLinks = document.querySelector('.legal-links');
 const metaMaskRequired = document.querySelector('.metaMaskRequired');
+const metaMask = document.querySelector('.metaMask');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
@@ -205,6 +206,7 @@ async function getAccount() {
     row.style = "display: none !important";
     legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
+    metaMask.style = "width: auto !important";
 
 	
 	
