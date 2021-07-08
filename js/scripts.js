@@ -196,6 +196,7 @@ async function getAccount() {
     var middle = "...";
     var back = logIn.substring(38, 42);
     var fullLogIn = front.concat(middle, back)
+    metaMask.style = "width: auto !important";
     showAccount.innerHTML = fullLogIn;
     connectAccount.innerHTML = "";
     $('.login').fadeOut();
@@ -206,9 +207,6 @@ async function getAccount() {
     row.style = "display: none !important";
     legalLinks.style = "display: block !important";
     metaMaskRequired.style = "display: none !important";
-    metaMask.style = "width: auto !important";
-
-	
 	
 }
 
