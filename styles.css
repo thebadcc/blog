@@ -238,11 +238,12 @@ nav ul li ul li a {
 }
 
 .metaMask {
-border-radius: 5px;
-    border: solid 1px gray;
+    background: #dcdcdc;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: auto;
     margin-top: 21;
-    background: black;
-    color: white;
     height: 30px;
     font-family: system-ui;
     font-size: 15;
