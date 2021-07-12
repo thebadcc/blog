@@ -1076,6 +1076,15 @@ float: left;
 	padding: 0;
 }
 
+.functionButton {
+    background: #dcdcdc;
+    color: black;
+    outline: auto;
+    height: 30px;
+    font-family: system-ui;
+    font-size: 15;
+}
+	
 .inputForm {
 margin-bottom: 15px;
     width: 100%;
