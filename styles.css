@@ -1085,9 +1085,11 @@ float: left;
     font-size: 15;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 .functionButton {
     width: 100%;
+}
+	
 }
 	
 .inputForm {
