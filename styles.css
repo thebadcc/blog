@@ -1084,6 +1084,11 @@ float: left;
     font-family: system-ui;
     font-size: 15;
 }
+
+@media only screen and (max-width: 800px)
+.functionButton {
+    width: 100%;
+}
 	
 .inputForm {
 margin-bottom: 15px;
